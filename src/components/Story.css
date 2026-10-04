@@ -1,0 +1,57 @@
+.story {
+  background: linear-gradient(135deg, var(--green-800), var(--green-700) 55%, var(--green-600));
+  padding: 56px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.story::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 85% 20%, rgba(215, 162, 51, 0.25), transparent 55%);
+}
+
+.story__inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.story__badge {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--gold-500);
+  color: var(--green-900);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.story__lines {
+  display: flex;
+  gap: 28px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.story__quote {
+  font-size: 1.8rem;
+  color: var(--gold-400);
+}
+
+@media (max-width: 700px) {
+  .story__lines {
+    flex-direction: column;
+    gap: 6px;
+  }
+}

@@ -1,0 +1,42 @@
+.logo-full {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logo-mark {
+  flex-shrink: 0;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.logo-name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--green-800);
+  white-space: nowrap;
+}
+
+.logo-tm {
+  font-size: 0.5em;
+  margin-left: 2px;
+}
+
+.logo-tag {
+  font-size: 0.7rem;
+  color: var(--ink-400);
+  letter-spacing: 0.02em;
+}
+
+.logo-full--light .logo-name {
+  color: var(--white);
+}
+
+.logo-full--light .logo-tag {
+  color: rgba(255, 255, 255, 0.72);
+}

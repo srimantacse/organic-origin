@@ -1,5 +1,5 @@
 import { ArrowRight } from 'lucide-react';
-import MountainScene from './MountainScene';
+import themeImg from '../../assets/theme.png';
 import { brand, hero } from '../data/content';
 import './Hero.css';
 
@@ -26,7 +26,7 @@ export default function Hero() {
         </div>
 
         <div className="hero__visual">
-          <MountainScene />
+          <img className="hero__img" src={themeImg} alt="Kalimpong mountains" />
           <div className="hero__signpost">
             <ul>
               {hero.signpost.map((line) => (

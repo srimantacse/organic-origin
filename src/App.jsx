@@ -6,6 +6,7 @@ import Products from './components/Products';
 import Process from './components/Process';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
+import Chatbot from './components/Chatbot';
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
         <CTA />
       </main>
       <Footer />
+      <Chatbot />
     </>
   );
 }

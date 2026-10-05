@@ -52,7 +52,8 @@
   gap: 12px;
 }
 
-.site-footer__social-icons a {
+.site-footer__social-icons a,
+.site-footer__social-icons .is-disabled {
   width: 38px;
   height: 38px;
   border-radius: 50%;
@@ -102,4 +103,9 @@
   .site-footer__inner {
     grid-template-columns: 1fr;
   }
+}
+
+.site-footer__social-icons .is-disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
 }

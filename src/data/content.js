@@ -67,18 +67,18 @@ export const products = {
   heading: 'Our Products',
   sub: 'Naturally Grown in Kalimpong',
   items: [
-    { icon: 'Sprout', name: 'Ginger' },
-    { icon: 'Leaf', name: 'Large Cardamom' },
-    { icon: 'Flame', name: 'Dalle Khursani' },
-    { icon: 'Sun', name: 'Turmeric' },
-    { icon: 'Carrot', name: 'Fresh Vegetables' },
-    { icon: 'Citrus', name: 'Oranges & Citrus' },
-    { icon: 'Wheat', name: 'Millets & Pulses' },
-    { icon: 'Coffee', name: 'Organic Coffee' },
-    { icon: 'Flower2', name: 'Himalayan Herbs' },
-    { icon: 'Droplet', name: 'Natural Honey' },
-    { icon: 'Mushroom', name: 'Mushrooms' },
-    { icon: 'Package', name: 'Spices & Value Added Products' },
+    { icon: 'Sprout', name: 'Ginger', image: 'ginger' },
+    { icon: 'Leaf', name: 'Large Cardamom', image: 'cardamom' },
+    { icon: 'Flame', name: 'Dalle Khursani', image: 'khursani' },
+    { icon: 'Sun', name: 'Turmeric', image: 'tumeric' },
+    { icon: 'Carrot', name: 'Fresh Vegetables', image: 'vegetables' },
+    { icon: 'Citrus', name: 'Oranges & Citrus', image: 'orange' },
+    { icon: 'Wheat', name: 'Millets & Pulses', image: 'millet' },
+    { icon: 'Coffee', name: 'Organic Coffee', image: 'cofee' },
+    { icon: 'Flower2', name: 'Himalayan Herbs', image: 'himalayan_herb' },
+    { icon: 'Droplet', name: 'Natural Honey', image: 'honey' },
+    { icon: 'Mushroom', name: 'Mushrooms', image: 'mushrooms' },
+    { icon: 'Package', name: 'Spices & Value Added Products', image: 'spices' },
   ],
 };
 
@@ -104,7 +104,7 @@ export const contact = {
   address: 'Kalimpong, West Bengal, India',
   phone: '+91 8293429313',
   phoneHref: '+918293429313',
-  email: 'organico2kalimpong@gmail.com',
+  email: 'organicorigino2@gmail.com',
   social: {
     handle: '@organico2',
     instagram: 'https://instagram.com/organico2',
@@ -112,4 +112,11 @@ export const contact = {
     whatsapp: 'https://wa.me/918293429313',
   },
   closing: 'Eat Organic. Live Better.',
+};
+
+export const chatbot = {
+  title: 'O2 Assistant',
+  greeting: 'Hello! Welcome to Organic Origin. How may we help you today?',
+  reply: (c) =>
+    `Thank you for your message. Kindly drop us an email at ${c.email} or call us on ${c.phone}, and our team will get back to you shortly.`,
 };

@@ -34,12 +34,12 @@ export default function Footer() {
         <div className="site-footer__social">
           <p>Follow Our Journey {contact.social.handle}</p>
           <div className="site-footer__social-icons">
-            <a href={contact.social.facebook} target="_blank" rel="noreferrer" aria-label="Facebook">
+            <span className="is-disabled" aria-label="Facebook (coming soon)" title="Coming soon">
               <FacebookIcon size={18} />
-            </a>
-            <a href={contact.social.instagram} target="_blank" rel="noreferrer" aria-label="Instagram">
+            </span>
+            <span className="is-disabled" aria-label="Instagram (coming soon)" title="Coming soon">
               <InstagramIcon size={18} />
-            </a>
+            </span>
             <a href={contact.social.whatsapp} target="_blank" rel="noreferrer" aria-label="WhatsApp">
               <WhatsappIcon size={18} />
             </a>

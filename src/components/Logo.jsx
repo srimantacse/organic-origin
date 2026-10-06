@@ -1,31 +1,13 @@
-import logoImg from '../assets/logo.png';
+import logoImg from '../assets/logo_3.png';
 import './Logo.css';
 
-function Mark({ size = 56 }) {
+export default function Logo({ size = 56, light = false }) {
   return (
     <img
-      className="logo-mark"
+      className={`logo-mark ${light ? 'logo-mark--light' : ''}`}
       src={logoImg}
-      alt="Organic Origin O2 emblem"
+      alt="Organic Origin O2"
       style={{ height: size * 1.5, width: 'auto' }}
     />
-  );
-}
-
-export default function Logo({ variant = 'full', size = 56, light = false }) {
-  if (variant === 'mark') {
-    return <Mark size={size} />;
-  }
-
-  return (
-    <div className={`logo-full ${light ? 'logo-full--light' : ''}`}>
-      <Mark size={size} />
-      <div className="logo-text">
-        <span className="logo-name">
-          Organic Origin<sup className="logo-tm">TM</sup>
-        </span>
-        <span className="logo-tag">Pure by Origin. Organic by Nature.</span>
-      </div>
-    </div>
   );
 }

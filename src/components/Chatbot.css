@@ -116,3 +116,23 @@
   align-items: center;
   justify-content: center;
 }
+
+.chatbot__head-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.chatbot__form .chatbot__mic {
+  background: var(--green-700);
+}
+
+.chatbot__form .chatbot__mic--on {
+  background: #c0392b;
+  animation: chatbot-pulse 1.2s ease-in-out infinite;
+}
+
+@keyframes chatbot-pulse {
+  50% {
+    box-shadow: 0 0 0 8px rgba(192, 57, 43, 0.25);
+  }
+}

@@ -2,7 +2,7 @@ export const brand = {
   name: 'Organic Origin',
   shortName: 'O2',
   tagline: 'Pure by Origin. Organic by Nature.',
-  sub: 'Kalimpong Mountain Farming',
+  sub: 'Evergreen Highlands',
 };
 
 export const nav = [
@@ -13,9 +13,9 @@ export const nav = [
 ];
 
 export const hero = {
-  eyebrow: "From Kalimpong's Mountains",
+  eyebrow: "From Nature's Lap",
   title: "to Your Family's Table",
-  body: 'Naturally grown, chemical-free produce cultivated by local farmers in the pristine mountains of Kalimpong, West Bengal — harvested with care and delivered with honesty.',
+  body: 'Pure mountain produce, grown without chemicals, by the farmers of Kalimpong, Samsing and Jorethang, and delivered fresh and honest to your door.',
   signpost: ['Healthy Food', 'Happier People', 'Greener Planet'],
   ctaPrimary: { label: 'Explore Products', href: '#products' },
   ctaSecondary: { label: 'Our Story', href: '#about' },
@@ -27,12 +27,12 @@ export const about = {
     {
       icon: 'Leaf',
       title: 'About Us',
-      body: 'Organic Origin – O2 is an organic farming company based in the pristine mountains of Kalimpong, West Bengal. We are dedicated to cultivating naturally grown, chemical-free and nutritious food while supporting local farmers and protecting the fragile Himalayan ecosystem.',
+      body: 'Organic Origin – O2 is an organic farming company rooted in the Himalayan foothills of Kalimpong, with produce grown by local farmers across Kalimpong, Samsing and Jorethang. We grow food the way nature intended: chemical-free, nutritious and full of mountain freshness. Every harvest supports the farmers who tend the land and helps protect the fragile Himalayan ecosystem.',
     },
     {
       icon: 'Eye',
       title: 'Our Vision',
-      body: 'To be a leading organic farming brand that brings the pure goodness of the mountains to people’s lives, creating a healthier and more sustainable future.',
+      body: 'To become a trusted name in organic farming by bringing the pure goodness of the Himalayas to every table. We envision a future where families eat food that is clean, honest and full of natural nutrition, where the farmers who grow it earn the respect and livelihood they deserve, and where the mountains that sustain us remain healthy and unspoiled for generations to come.',
     },
     {
       icon: 'Target',
@@ -106,8 +106,8 @@ export const contact = {
   phoneHref: '+918293429313',
   email: 'organicorigino2@gmail.com',
   social: {
-    handle: '@organico2',
-    instagram: 'https://instagram.com/organico2',
+    handle: '@organicorigin_o2',
+    instagram: 'https://www.instagram.com/organicorigin_o2',
     facebook: 'https://facebook.com/organico2',
     whatsapp: 'https://wa.me/918293429313',
   },

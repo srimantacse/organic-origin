@@ -37,9 +37,9 @@ export default function Footer() {
             <span className="is-disabled" aria-label="Facebook (coming soon)" title="Coming soon">
               <FacebookIcon size={18} />
             </span>
-            <span className="is-disabled" aria-label="Instagram (coming soon)" title="Coming soon">
+            <a href={contact.social.instagram} target="_blank" rel="noreferrer" aria-label="Instagram">
               <InstagramIcon size={18} />
-            </span>
+            </a>
             <a href={contact.social.whatsapp} target="_blank" rel="noreferrer" aria-label="WhatsApp">
               <WhatsappIcon size={18} />
             </a>

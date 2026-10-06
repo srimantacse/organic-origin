@@ -11,6 +11,14 @@
       "origin": "Kalimpong and Samsing hill farms, 600–1,200 m elevation.",
       "bestSeason": "Harvested November–February; freshest and most aromatic in winter.",
       "uses": "Tea, curries, pickles, remedies for cold and digestion.",
+      "shelfLife": "1–2 weeks fresh; up to 6 months dried",
+      "storage": "Cool, dry place; refrigerate unpeeled to extend life",
+      "packaging": "Jute/breathable bag",
+      "certification": "Grown without synthetic pesticides or fertilisers",
+      "rating": {
+        "score": 4.6,
+        "count": 128
+      },
       "mrp": 120,
       "unit": "per kg",
       "links": [
@@ -20,6 +28,26 @@
         }
       ],
       "priceHistory": [
+        {
+          "year": 2017,
+          "price": 79
+        },
+        {
+          "year": 2018,
+          "price": 78
+        },
+        {
+          "year": 2019,
+          "price": 83
+        },
+        {
+          "year": 2020,
+          "price": 89
+        },
+        {
+          "year": 2021,
+          "price": 93
+        },
         {
           "year": 2022,
           "price": 94
@@ -34,11 +62,21 @@
         },
         {
           "year": 2025,
-          "price": 116
+          "price": 127
         },
         {
           "year": 2026,
-          "price": 120
+          "price": 134
+        }
+      ],
+      "priceSources": [
+        {
+          "label": "Agmarknet (mandi prices)",
+          "url": "https://agmarknet.gov.in/"
+        },
+        {
+          "label": "Spices Board India",
+          "url": "https://www.indianspices.com/"
         }
       ]
     },
@@ -50,6 +88,14 @@
       "origin": "Shade-grown under alder trees in Kalimpong and Sikkim.",
       "bestSeason": "Harvested October–November, then dried over wood fire for 2–3 days.",
       "uses": "Garam masala, biryani, masala chai, sweets.",
+      "shelfLife": "12–18 months",
+      "storage": "Airtight container away from moisture and sunlight",
+      "packaging": "Sealed food-grade pouch",
+      "certification": "Grown without synthetic pesticides or fertilisers",
+      "rating": {
+        "score": 4.8,
+        "count": 214
+      },
       "mrp": 1800,
       "unit": "per kg",
       "links": [
@@ -59,6 +105,26 @@
         }
       ],
       "priceHistory": [
+        {
+          "year": 2017,
+          "price": 1378
+        },
+        {
+          "year": 2018,
+          "price": 1484
+        },
+        {
+          "year": 2019,
+          "price": 1606
+        },
+        {
+          "year": 2020,
+          "price": 1621
+        },
+        {
+          "year": 2021,
+          "price": 1548
+        },
         {
           "year": 2022,
           "price": 1620
@@ -73,11 +139,21 @@
         },
         {
           "year": 2025,
-          "price": 1764
+          "price": 1915
         },
         {
           "year": 2026,
-          "price": 1800
+          "price": 2016
+        }
+      ],
+      "priceSources": [
+        {
+          "label": "Spices Board India",
+          "url": "https://www.indianspices.com/"
+        },
+        {
+          "label": "Agmarknet (mandi prices)",
+          "url": "https://agmarknet.gov.in/"
         }
       ]
     },
@@ -89,6 +165,14 @@
       "origin": "Small family farms around Kalimpong and Jorethang.",
       "bestSeason": "Peaks July–November; best bought fresh in the monsoon-to-autumn window.",
       "uses": "Achar (pickle), chutneys, momo dips, curries.",
+      "shelfLife": "1–2 weeks fresh; 1 year sun-dried or pickled",
+      "storage": "Refrigerate fresh; keep dried chillies airtight",
+      "packaging": "Ventilated box / sealed pouch",
+      "certification": "Grown without synthetic pesticides or fertilisers",
+      "rating": {
+        "score": 4.5,
+        "count": 87
+      },
       "mrp": 450,
       "unit": "per kg",
       "links": [
@@ -98,6 +182,26 @@
         }
       ],
       "priceHistory": [
+        {
+          "year": 2017,
+          "price": 300
+        },
+        {
+          "year": 2018,
+          "price": 311
+        },
+        {
+          "year": 2019,
+          "price": 324
+        },
+        {
+          "year": 2020,
+          "price": 331
+        },
+        {
+          "year": 2021,
+          "price": 318
+        },
         {
           "year": 2022,
           "price": 315
@@ -112,11 +216,21 @@
         },
         {
           "year": 2025,
-          "price": 472
+          "price": 479
         },
         {
           "year": 2026,
-          "price": 450
+          "price": 504
+        }
+      ],
+      "priceSources": [
+        {
+          "label": "Agmarknet (mandi prices)",
+          "url": "https://agmarknet.gov.in/"
+        },
+        {
+          "label": "National Horticulture Board",
+          "url": "https://nhb.gov.in/"
         }
       ]
     },
@@ -128,6 +242,14 @@
       "origin": "Mid-hill terraces of Kalimpong and Samsing.",
       "bestSeason": "Harvested January–March; best as freshly dried powder in the months after.",
       "uses": "Cooking, golden milk, skincare and traditional remedies.",
+      "shelfLife": "12 months as powder; 2–3 weeks fresh root",
+      "storage": "Airtight jar, away from light and humidity",
+      "packaging": "Sealed food-grade pouch",
+      "certification": "Grown without synthetic pesticides or fertilisers",
+      "rating": {
+        "score": 4.7,
+        "count": 176
+      },
       "mrp": 200,
       "unit": "per kg",
       "links": [
@@ -142,6 +264,26 @@
       ],
       "priceHistory": [
         {
+          "year": 2017,
+          "price": 145
+        },
+        {
+          "year": 2018,
+          "price": 150
+        },
+        {
+          "year": 2019,
+          "price": 151
+        },
+        {
+          "year": 2020,
+          "price": 154
+        },
+        {
+          "year": 2021,
+          "price": 168
+        },
+        {
           "year": 2022,
           "price": 170
         },
@@ -155,11 +297,21 @@
         },
         {
           "year": 2025,
-          "price": 192
+          "price": 213
         },
         {
           "year": 2026,
-          "price": 200
+          "price": 224
+        }
+      ],
+      "priceSources": [
+        {
+          "label": "Spices Board India",
+          "url": "https://www.indianspices.com/"
+        },
+        {
+          "label": "Agmarknet (mandi prices)",
+          "url": "https://agmarknet.gov.in/"
         }
       ]
     },
@@ -171,6 +323,14 @@
       "origin": "Kitchen-garden style farms across Kalimpong, Samsing and Jorethang.",
       "bestSeason": "Year-round; leafy greens and peas shine in winter, squash and beans in summer.",
       "uses": "Everyday cooking, salads, soups.",
+      "shelfLife": "3–7 days depending on variety",
+      "storage": "Refrigerate in a breathable bag",
+      "packaging": "Paper/jute bag",
+      "certification": "Grown without synthetic pesticides or fertilisers",
+      "rating": {
+        "score": 4.4,
+        "count": 95
+      },
       "mrp": 80,
       "unit": "per kg",
       "links": [
@@ -180,6 +340,26 @@
         }
       ],
       "priceHistory": [
+        {
+          "year": 2017,
+          "price": 47
+        },
+        {
+          "year": 2018,
+          "price": 48
+        },
+        {
+          "year": 2019,
+          "price": 51
+        },
+        {
+          "year": 2020,
+          "price": 55
+        },
+        {
+          "year": 2021,
+          "price": 60
+        },
         {
           "year": 2022,
           "price": 64
@@ -194,11 +374,21 @@
         },
         {
           "year": 2025,
-          "price": 76
+          "price": 86
         },
         {
           "year": 2026,
-          "price": 80
+          "price": 90
+        }
+      ],
+      "priceSources": [
+        {
+          "label": "Agmarknet (mandi prices)",
+          "url": "https://agmarknet.gov.in/"
+        },
+        {
+          "label": "National Horticulture Board",
+          "url": "https://nhb.gov.in/"
         }
       ]
     },
@@ -210,6 +400,14 @@
       "origin": "Orchards of Kalimpong and the Teesta valley.",
       "bestSeason": "November–January, when the fruit is at peak sweetness.",
       "uses": "Eating fresh, juice, marmalade, zest.",
+      "shelfLife": "1–2 weeks at room temperature; 3–4 weeks refrigerated",
+      "storage": "Cool, ventilated place; avoid sealed plastic",
+      "packaging": "Ventilated carton",
+      "certification": "Grown without synthetic pesticides or fertilisers",
+      "rating": {
+        "score": 4.5,
+        "count": 142
+      },
       "mrp": 160,
       "unit": "per kg",
       "links": [
@@ -219,6 +417,26 @@
         }
       ],
       "priceHistory": [
+        {
+          "year": 2017,
+          "price": 118
+        },
+        {
+          "year": 2018,
+          "price": 119
+        },
+        {
+          "year": 2019,
+          "price": 129
+        },
+        {
+          "year": 2020,
+          "price": 127
+        },
+        {
+          "year": 2021,
+          "price": 121
+        },
         {
           "year": 2022,
           "price": 131
@@ -233,11 +451,21 @@
         },
         {
           "year": 2025,
-          "price": 155
+          "price": 170
         },
         {
           "year": 2026,
-          "price": 160
+          "price": 179
+        }
+      ],
+      "priceSources": [
+        {
+          "label": "National Horticulture Board",
+          "url": "https://nhb.gov.in/"
+        },
+        {
+          "label": "Agmarknet (mandi prices)",
+          "url": "https://agmarknet.gov.in/"
         }
       ]
     },
@@ -249,6 +477,14 @@
       "origin": "Rain-fed terrace farms in the Kalimpong hills.",
       "bestSeason": "Harvested September–November; store dry for year-round use.",
       "uses": "Roti, porridge, local fermented drink (tongba), dals.",
+      "shelfLife": "8–12 months",
+      "storage": "Airtight container in a cool, dry place",
+      "packaging": "Sealed food-grade pouch",
+      "certification": "Grown without synthetic pesticides or fertilisers",
+      "rating": {
+        "score": 4.6,
+        "count": 109
+      },
       "mrp": 140,
       "unit": "per kg",
       "links": [
@@ -263,6 +499,26 @@
       ],
       "priceHistory": [
         {
+          "year": 2017,
+          "price": 87
+        },
+        {
+          "year": 2018,
+          "price": 94
+        },
+        {
+          "year": 2019,
+          "price": 100
+        },
+        {
+          "year": 2020,
+          "price": 103
+        },
+        {
+          "year": 2021,
+          "price": 110
+        },
+        {
           "year": 2022,
           "price": 109
         },
@@ -276,11 +532,21 @@
         },
         {
           "year": 2025,
-          "price": 136
+          "price": 149
         },
         {
           "year": 2026,
-          "price": 140
+          "price": 157
+        }
+      ],
+      "priceSources": [
+        {
+          "label": "Agmarknet (mandi prices)",
+          "url": "https://agmarknet.gov.in/"
+        },
+        {
+          "label": "Open Government Data (mandi prices)",
+          "url": "https://www.data.gov.in/"
         }
       ]
     },
@@ -292,8 +558,16 @@
       "origin": "Shaded estates in the Kalimpong foothills.",
       "bestSeason": "Cherries picked November–February; roasted beans are best within 2 months.",
       "uses": "Filter coffee, espresso, French press.",
-      "mrp": 650,
-      "unit": "per 500 g",
+      "shelfLife": "6 months whole bean (best within 6 weeks of roasting)",
+      "storage": "Airtight, opaque container; do not refrigerate",
+      "packaging": "One-way valve pouch",
+      "certification": "Grown without synthetic pesticides or fertilisers",
+      "rating": {
+        "score": 4.7,
+        "count": 163
+      },
+      "mrp": 1300,
+      "unit": "per kg",
       "links": [
         {
           "label": "Coffea arabica",
@@ -302,24 +576,50 @@
       ],
       "priceHistory": [
         {
+          "year": 2017,
+          "price": 1019
+        },
+        {
+          "year": 2018,
+          "price": 1092
+        },
+        {
+          "year": 2019,
+          "price": 1068
+        },
+        {
+          "year": 2020,
+          "price": 1098
+        },
+        {
+          "year": 2021,
+          "price": 1168
+        },
+        {
           "year": 2022,
-          "price": 585
+          "price": 1170
         },
         {
           "year": 2023,
-          "price": 682
+          "price": 1364
         },
         {
           "year": 2024,
-          "price": 618
+          "price": 1236
         },
         {
           "year": 2025,
-          "price": 637
+          "price": 1383
         },
         {
           "year": 2026,
-          "price": 650
+          "price": 1456
+        }
+      ],
+      "priceSources": [
+        {
+          "label": "Coffee Board of India",
+          "url": "https://www.indiacoffee.org/"
         }
       ]
     },
@@ -331,8 +631,16 @@
       "origin": "Forest edges and kitchen gardens of Kalimpong.",
       "bestSeason": "Harvested April–September and sun-dried in shade.",
       "uses": "Herbal teas, seasoning, home remedies.",
-      "mrp": 250,
-      "unit": "per 100 g",
+      "shelfLife": "12 months dried",
+      "storage": "Airtight jar away from sunlight",
+      "packaging": "Sealed food-grade pouch",
+      "certification": "Grown without synthetic pesticides or fertilisers",
+      "rating": {
+        "score": 4.5,
+        "count": 64
+      },
+      "mrp": 2500,
+      "unit": "per kg",
       "links": [
         {
           "label": "Herb",
@@ -341,24 +649,54 @@
       ],
       "priceHistory": [
         {
+          "year": 2017,
+          "price": 1454
+        },
+        {
+          "year": 2018,
+          "price": 1483
+        },
+        {
+          "year": 2019,
+          "price": 1608
+        },
+        {
+          "year": 2020,
+          "price": 1698
+        },
+        {
+          "year": 2021,
+          "price": 1651
+        },
+        {
           "year": 2022,
-          "price": 175
+          "price": 1750
         },
         {
           "year": 2023,
-          "price": 200
+          "price": 2000
         },
         {
           "year": 2024,
-          "price": 230
+          "price": 2300
         },
         {
           "year": 2025,
-          "price": 262
+          "price": 2660
         },
         {
           "year": 2026,
-          "price": 250
+          "price": 2800
+        }
+      ],
+      "priceSources": [
+        {
+          "label": "National Medicinal Plants Board",
+          "url": "https://nmpb.nic.in/"
+        },
+        {
+          "label": "Agmarknet (mandi prices)",
+          "url": "https://agmarknet.gov.in/"
         }
       ]
     },
@@ -370,8 +708,16 @@
       "origin": "Apiaries around Samsing and Jorethang.",
       "bestSeason": "Collected March–May and October–November; spring honey is the lightest.",
       "uses": "Sweetener, tea, wellness, topical use.",
-      "mrp": 550,
-      "unit": "per 500 g",
+      "shelfLife": "24 months; natural crystallisation is normal",
+      "storage": "Room temperature, tightly closed; never refrigerate",
+      "packaging": "Glass jar",
+      "certification": "Grown without synthetic pesticides or fertilisers",
+      "rating": {
+        "score": 4.9,
+        "count": 231
+      },
+      "mrp": 950,
+      "unit": "per kg",
       "links": [
         {
           "label": "Honey",
@@ -384,24 +730,54 @@
       ],
       "priceHistory": [
         {
+          "year": 2017,
+          "price": 690
+        },
+        {
+          "year": 2018,
+          "price": 718
+        },
+        {
+          "year": 2019,
+          "price": 737
+        },
+        {
+          "year": 2020,
+          "price": 742
+        },
+        {
+          "year": 2021,
+          "price": 806
+        },
+        {
           "year": 2022,
-          "price": 468
+          "price": 808
         },
         {
           "year": 2023,
-          "price": 451
+          "price": 779
         },
         {
           "year": 2024,
-          "price": 495
+          "price": 855
         },
         {
           "year": 2025,
-          "price": 528
+          "price": 1011
         },
         {
           "year": 2026,
-          "price": 550
+          "price": 1064
+        }
+      ],
+      "priceSources": [
+        {
+          "label": "National Bee Board",
+          "url": "https://nbb.gov.in/"
+        },
+        {
+          "label": "Agmarknet (mandi prices)",
+          "url": "https://agmarknet.gov.in/"
         }
       ]
     },
@@ -413,6 +789,14 @@
       "origin": "Small-scale mushroom huts in Kalimpong.",
       "bestSeason": "Cool months, October–March, give the best yield and flavour.",
       "uses": "Stir-fries, soups, momo fillings.",
+      "shelfLife": "3–5 days fresh; 6 months dried",
+      "storage": "Refrigerate in a paper bag; do not wash until use",
+      "packaging": "Ventilated punnet",
+      "certification": "Grown without synthetic pesticides or fertilisers",
+      "rating": {
+        "score": 4.3,
+        "count": 72
+      },
       "mrp": 280,
       "unit": "per kg",
       "links": [
@@ -422,6 +806,26 @@
         }
       ],
       "priceHistory": [
+        {
+          "year": 2017,
+          "price": 198
+        },
+        {
+          "year": 2018,
+          "price": 192
+        },
+        {
+          "year": 2019,
+          "price": 197
+        },
+        {
+          "year": 2020,
+          "price": 202
+        },
+        {
+          "year": 2021,
+          "price": 216
+        },
         {
           "year": 2022,
           "price": 224
@@ -436,11 +840,21 @@
         },
         {
           "year": 2025,
-          "price": 266
+          "price": 298
         },
         {
           "year": 2026,
-          "price": 280
+          "price": 314
+        }
+      ],
+      "priceSources": [
+        {
+          "label": "National Horticulture Board",
+          "url": "https://nhb.gov.in/"
+        },
+        {
+          "label": "Agmarknet (mandi prices)",
+          "url": "https://agmarknet.gov.in/"
         }
       ]
     },
@@ -452,6 +866,14 @@
       "origin": "Processed at our Kalimpong unit from our own farm produce.",
       "bestSeason": "Available year-round; made fresh after each harvest season.",
       "uses": "Cooking, gifting, pantry staples.",
+      "shelfLife": "6–12 months",
+      "storage": "Airtight container, cool and dry",
+      "packaging": "Sealed food-grade pack",
+      "certification": "Grown without synthetic pesticides or fertilisers",
+      "rating": {
+        "score": 4.6,
+        "count": 118
+      },
       "mrp": 180,
       "unit": "per pack",
       "links": [
@@ -461,6 +883,26 @@
         }
       ],
       "priceHistory": [
+        {
+          "year": 2017,
+          "price": 124
+        },
+        {
+          "year": 2018,
+          "price": 128
+        },
+        {
+          "year": 2019,
+          "price": 137
+        },
+        {
+          "year": 2020,
+          "price": 145
+        },
+        {
+          "year": 2021,
+          "price": 146
+        },
         {
           "year": 2022,
           "price": 148
@@ -475,18 +917,28 @@
         },
         {
           "year": 2025,
-          "price": 175
+          "price": 192
         },
         {
           "year": 2026,
-          "price": 180
+          "price": 202
+        }
+      ],
+      "priceSources": [
+        {
+          "label": "Spices Board India",
+          "url": "https://www.indianspices.com/"
         }
       ]
     }
   ],
   "priceHistoryMeta": {
-    "title": "Indian market price, last 5 years",
+    "title": "Indian market price, last 10 years",
     "sample": true,
-    "source": "Placeholder values - replace with Agmarknet / Spices Board data"
+    "source": "Placeholder values - replace with real figures from the sources linked below"
+  },
+  "ratingMeta": {
+    "sample": true,
+    "source": "Placeholder ratings - replace with real customer reviews"
   }
 }

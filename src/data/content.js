@@ -7,7 +7,7 @@ export const brand = {
 
 export const nav = [
   { label: 'About', href: '#about' },
-  { label: 'Products', href: '#products' },
+  { label: 'Product Catalog', href: '#products' },
   { label: 'Process', href: '#process' },
   { label: 'Contact', href: '#contact' },
 ];
@@ -17,7 +17,7 @@ export const hero = {
   title: "to Your Family's Table",
   body: 'Pure mountain produce, grown without chemicals, by the farmers of Kalimpong, Samsing and Jorethang, and delivered fresh and honest to your door.',
   signpost: ['Healthy Food', 'Happier People', 'Greener Planet'],
-  ctaPrimary: { label: 'Explore Products', href: '#products' },
+  ctaPrimary: { label: 'Explore Catalog', href: '#products' },
   ctaSecondary: { label: 'Our Story', href: '#about' },
 };
 
@@ -61,25 +61,6 @@ export const values = [
 export const story = {
   lines: ['Healthy Soil', 'Healthy Food', 'Healthy Generations'],
   quote: 'Nurturing Nature, Empowering Farmers',
-};
-
-export const products = {
-  heading: 'Our Products',
-  sub: 'Naturally Grown in Kalimpong',
-  items: [
-    { icon: 'Sprout', name: 'Ginger', image: 'ginger' },
-    { icon: 'Leaf', name: 'Large Cardamom', image: 'cardamom' },
-    { icon: 'Flame', name: 'Dalle Khursani', image: 'khursani' },
-    { icon: 'Sun', name: 'Turmeric', image: 'tumeric' },
-    { icon: 'Carrot', name: 'Fresh Vegetables', image: 'vegetables' },
-    { icon: 'Citrus', name: 'Oranges & Citrus', image: 'orange' },
-    { icon: 'Wheat', name: 'Millets & Pulses', image: 'millet' },
-    { icon: 'Coffee', name: 'Organic Coffee', image: 'cofee' },
-    { icon: 'Flower2', name: 'Himalayan Herbs', image: 'himalayan_herb' },
-    { icon: 'Droplet', name: 'Natural Honey', image: 'honey' },
-    { icon: 'Mushroom', name: 'Mushrooms', image: 'mushrooms' },
-    { icon: 'Package', name: 'Spices & Value Added Products', image: 'spices' },
-  ],
 };
 
 export const process = {

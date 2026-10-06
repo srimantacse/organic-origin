@@ -1,0 +1,492 @@
+{
+  "heading": "Product Catalog",
+  "sub": "Naturally Grown in Kalimpong",
+  "currency": "₹",
+  "items": [
+    {
+      "name": "Ginger",
+      "scientificName": "Zingiber officinale",
+      "image": "ginger",
+      "summary": "Pungent, juicy rhizomes grown organically on Himalayan slopes.",
+      "origin": "Kalimpong and Samsing hill farms, 600–1,200 m elevation.",
+      "bestSeason": "Harvested November–February; freshest and most aromatic in winter.",
+      "uses": "Tea, curries, pickles, remedies for cold and digestion.",
+      "mrp": 120,
+      "unit": "per kg",
+      "links": [
+        {
+          "label": "Ginger",
+          "url": "https://en.wikipedia.org/wiki/Ginger"
+        }
+      ],
+      "priceHistory": [
+        {
+          "year": 2022,
+          "price": 94
+        },
+        {
+          "year": 2023,
+          "price": 102
+        },
+        {
+          "year": 2024,
+          "price": 112
+        },
+        {
+          "year": 2025,
+          "price": 116
+        },
+        {
+          "year": 2026,
+          "price": 120
+        }
+      ]
+    },
+    {
+      "name": "Large Cardamom",
+      "scientificName": "Amomum subulatum",
+      "image": "cardamom",
+      "summary": "Smoky, camphor-like pods known as Badi Elaichi, a signature of the Eastern Himalayas.",
+      "origin": "Shade-grown under alder trees in Kalimpong and Sikkim.",
+      "bestSeason": "Harvested October–November, then dried over wood fire for 2–3 days.",
+      "uses": "Garam masala, biryani, masala chai, sweets.",
+      "mrp": 1800,
+      "unit": "per kg",
+      "links": [
+        {
+          "label": "Black cardamom",
+          "url": "https://en.wikipedia.org/wiki/Black_cardamom"
+        }
+      ],
+      "priceHistory": [
+        {
+          "year": 2022,
+          "price": 1620
+        },
+        {
+          "year": 2023,
+          "price": 1890
+        },
+        {
+          "year": 2024,
+          "price": 1710
+        },
+        {
+          "year": 2025,
+          "price": 1764
+        },
+        {
+          "year": 2026,
+          "price": 1800
+        }
+      ]
+    },
+    {
+      "name": "Dalle Khursani",
+      "scientificName": "Capsicum annuum var. frutescens",
+      "image": "khursani",
+      "summary": "Round, fiery cherry chilli, the pride of Sikkim and Darjeeling hills.",
+      "origin": "Small family farms around Kalimpong and Jorethang.",
+      "bestSeason": "Peaks July–November; best bought fresh in the monsoon-to-autumn window.",
+      "uses": "Achar (pickle), chutneys, momo dips, curries.",
+      "mrp": 450,
+      "unit": "per kg",
+      "links": [
+        {
+          "label": "Dalle Khursani",
+          "url": "https://en.wikipedia.org/wiki/Dalle_Khursani"
+        }
+      ],
+      "priceHistory": [
+        {
+          "year": 2022,
+          "price": 315
+        },
+        {
+          "year": 2023,
+          "price": 360
+        },
+        {
+          "year": 2024,
+          "price": 414
+        },
+        {
+          "year": 2025,
+          "price": 472
+        },
+        {
+          "year": 2026,
+          "price": 450
+        }
+      ]
+    },
+    {
+      "name": "Turmeric",
+      "scientificName": "Curcuma longa",
+      "image": "tumeric",
+      "summary": "Deep-golden, high-curcumin rhizomes grown without chemicals.",
+      "origin": "Mid-hill terraces of Kalimpong and Samsing.",
+      "bestSeason": "Harvested January–March; best as freshly dried powder in the months after.",
+      "uses": "Cooking, golden milk, skincare and traditional remedies.",
+      "mrp": 200,
+      "unit": "per kg",
+      "links": [
+        {
+          "label": "Turmeric",
+          "url": "https://en.wikipedia.org/wiki/Turmeric"
+        },
+        {
+          "label": "Curcumin",
+          "url": "https://en.wikipedia.org/wiki/Curcumin"
+        }
+      ],
+      "priceHistory": [
+        {
+          "year": 2022,
+          "price": 170
+        },
+        {
+          "year": 2023,
+          "price": 164
+        },
+        {
+          "year": 2024,
+          "price": 180
+        },
+        {
+          "year": 2025,
+          "price": 192
+        },
+        {
+          "year": 2026,
+          "price": 200
+        }
+      ]
+    },
+    {
+      "name": "Fresh Vegetables",
+      "scientificName": "Assorted seasonal varieties",
+      "image": "vegetables",
+      "summary": "Seasonal greens and roots picked and delivered fresh from the farm.",
+      "origin": "Kitchen-garden style farms across Kalimpong, Samsing and Jorethang.",
+      "bestSeason": "Year-round; leafy greens and peas shine in winter, squash and beans in summer.",
+      "uses": "Everyday cooking, salads, soups.",
+      "mrp": 80,
+      "unit": "per kg",
+      "links": [
+        {
+          "label": "Vegetable",
+          "url": "https://en.wikipedia.org/wiki/Vegetable"
+        }
+      ],
+      "priceHistory": [
+        {
+          "year": 2022,
+          "price": 64
+        },
+        {
+          "year": 2023,
+          "price": 70
+        },
+        {
+          "year": 2024,
+          "price": 68
+        },
+        {
+          "year": 2025,
+          "price": 76
+        },
+        {
+          "year": 2026,
+          "price": 80
+        }
+      ]
+    },
+    {
+      "name": "Oranges & Citrus",
+      "scientificName": "Citrus reticulata",
+      "image": "orange",
+      "summary": "Sweet-tangy Darjeeling mandarins, tree-ripened in the hills.",
+      "origin": "Orchards of Kalimpong and the Teesta valley.",
+      "bestSeason": "November–January, when the fruit is at peak sweetness.",
+      "uses": "Eating fresh, juice, marmalade, zest.",
+      "mrp": 160,
+      "unit": "per kg",
+      "links": [
+        {
+          "label": "Mandarin orange",
+          "url": "https://en.wikipedia.org/wiki/Mandarin_orange"
+        }
+      ],
+      "priceHistory": [
+        {
+          "year": 2022,
+          "price": 131
+        },
+        {
+          "year": 2023,
+          "price": 144
+        },
+        {
+          "year": 2024,
+          "price": 150
+        },
+        {
+          "year": 2025,
+          "price": 155
+        },
+        {
+          "year": 2026,
+          "price": 160
+        }
+      ]
+    },
+    {
+      "name": "Millets & Pulses",
+      "scientificName": "Eleusine coracana (finger millet) and others",
+      "image": "millet",
+      "summary": "Nutritious traditional grains such as Kodo and Marsi, rich in fibre and minerals.",
+      "origin": "Rain-fed terrace farms in the Kalimpong hills.",
+      "bestSeason": "Harvested September–November; store dry for year-round use.",
+      "uses": "Roti, porridge, local fermented drink (tongba), dals.",
+      "mrp": 140,
+      "unit": "per kg",
+      "links": [
+        {
+          "label": "Millet",
+          "url": "https://en.wikipedia.org/wiki/Millet"
+        },
+        {
+          "label": "Finger millet",
+          "url": "https://en.wikipedia.org/wiki/Finger_millet"
+        }
+      ],
+      "priceHistory": [
+        {
+          "year": 2022,
+          "price": 109
+        },
+        {
+          "year": 2023,
+          "price": 119
+        },
+        {
+          "year": 2024,
+          "price": 130
+        },
+        {
+          "year": 2025,
+          "price": 136
+        },
+        {
+          "year": 2026,
+          "price": 140
+        }
+      ]
+    },
+    {
+      "name": "Organic Coffee",
+      "scientificName": "Coffea arabica",
+      "image": "cofee",
+      "summary": "Mild, aromatic Arabica beans shade-grown at altitude.",
+      "origin": "Shaded estates in the Kalimpong foothills.",
+      "bestSeason": "Cherries picked November–February; roasted beans are best within 2 months.",
+      "uses": "Filter coffee, espresso, French press.",
+      "mrp": 650,
+      "unit": "per 500 g",
+      "links": [
+        {
+          "label": "Coffea arabica",
+          "url": "https://en.wikipedia.org/wiki/Coffea_arabica"
+        }
+      ],
+      "priceHistory": [
+        {
+          "year": 2022,
+          "price": 585
+        },
+        {
+          "year": 2023,
+          "price": 682
+        },
+        {
+          "year": 2024,
+          "price": 618
+        },
+        {
+          "year": 2025,
+          "price": 637
+        },
+        {
+          "year": 2026,
+          "price": 650
+        }
+      ]
+    },
+    {
+      "name": "Himalayan Herbs",
+      "scientificName": "Assorted (e.g. Ocimum tenuiflorum, Mentha spp.)",
+      "image": "himalayan_herb",
+      "summary": "Hand-gathered and dried herbs for teas and traditional wellness.",
+      "origin": "Forest edges and kitchen gardens of Kalimpong.",
+      "bestSeason": "Harvested April–September and sun-dried in shade.",
+      "uses": "Herbal teas, seasoning, home remedies.",
+      "mrp": 250,
+      "unit": "per 100 g",
+      "links": [
+        {
+          "label": "Herb",
+          "url": "https://en.wikipedia.org/wiki/Herb"
+        }
+      ],
+      "priceHistory": [
+        {
+          "year": 2022,
+          "price": 175
+        },
+        {
+          "year": 2023,
+          "price": 200
+        },
+        {
+          "year": 2024,
+          "price": 230
+        },
+        {
+          "year": 2025,
+          "price": 262
+        },
+        {
+          "year": 2026,
+          "price": 250
+        }
+      ]
+    },
+    {
+      "name": "Natural Honey",
+      "scientificName": "Apis cerana indica",
+      "image": "honey",
+      "summary": "Raw, unprocessed honey from hill bees foraging on wild blossoms.",
+      "origin": "Apiaries around Samsing and Jorethang.",
+      "bestSeason": "Collected March–May and October–November; spring honey is the lightest.",
+      "uses": "Sweetener, tea, wellness, topical use.",
+      "mrp": 550,
+      "unit": "per 500 g",
+      "links": [
+        {
+          "label": "Honey",
+          "url": "https://en.wikipedia.org/wiki/Honey"
+        },
+        {
+          "label": "Apis cerana",
+          "url": "https://en.wikipedia.org/wiki/Apis_cerana"
+        }
+      ],
+      "priceHistory": [
+        {
+          "year": 2022,
+          "price": 468
+        },
+        {
+          "year": 2023,
+          "price": 451
+        },
+        {
+          "year": 2024,
+          "price": 495
+        },
+        {
+          "year": 2025,
+          "price": 528
+        },
+        {
+          "year": 2026,
+          "price": 550
+        }
+      ]
+    },
+    {
+      "name": "Mushrooms",
+      "scientificName": "Pleurotus ostreatus (oyster)",
+      "image": "mushrooms",
+      "summary": "Tender, protein-rich mushrooms grown on natural substrates.",
+      "origin": "Small-scale mushroom huts in Kalimpong.",
+      "bestSeason": "Cool months, October–March, give the best yield and flavour.",
+      "uses": "Stir-fries, soups, momo fillings.",
+      "mrp": 280,
+      "unit": "per kg",
+      "links": [
+        {
+          "label": "Oyster mushroom",
+          "url": "https://en.wikipedia.org/wiki/Oyster_mushroom"
+        }
+      ],
+      "priceHistory": [
+        {
+          "year": 2022,
+          "price": 224
+        },
+        {
+          "year": 2023,
+          "price": 246
+        },
+        {
+          "year": 2024,
+          "price": 238
+        },
+        {
+          "year": 2025,
+          "price": 266
+        },
+        {
+          "year": 2026,
+          "price": 280
+        }
+      ]
+    },
+    {
+      "name": "Spices & Value Added Products",
+      "scientificName": "Assorted blends and preserves",
+      "image": "spices",
+      "summary": "Ground spices, masalas, pickles and preserves made in small batches.",
+      "origin": "Processed at our Kalimpong unit from our own farm produce.",
+      "bestSeason": "Available year-round; made fresh after each harvest season.",
+      "uses": "Cooking, gifting, pantry staples.",
+      "mrp": 180,
+      "unit": "per pack",
+      "links": [
+        {
+          "label": "Spice",
+          "url": "https://en.wikipedia.org/wiki/Spice"
+        }
+      ],
+      "priceHistory": [
+        {
+          "year": 2022,
+          "price": 148
+        },
+        {
+          "year": 2023,
+          "price": 162
+        },
+        {
+          "year": 2024,
+          "price": 169
+        },
+        {
+          "year": 2025,
+          "price": 175
+        },
+        {
+          "year": 2026,
+          "price": 180
+        }
+      ]
+    }
+  ],
+  "priceHistoryMeta": {
+    "title": "Indian market price, last 5 years",
+    "sample": true,
+    "source": "Placeholder values - replace with Agmarknet / Spices Board data"
+  }
+}

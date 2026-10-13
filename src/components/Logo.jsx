@@ -1,4 +1,4 @@
-import logoImg from '../assets/logo_3.png';
+import logoImg from '../../assets_small/logo_3_nav.webp';
 import './Logo.css';
 
 export default function Logo({ size = 56, light = false }) {

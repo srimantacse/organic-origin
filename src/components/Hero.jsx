@@ -1,5 +1,5 @@
 import { ArrowRight } from 'lucide-react';
-import themeImg from '../../assets/theme.png';
+import themeImg from '../../assets_small/theme.webp';
 import { brand, hero } from '../data/content';
 import './Hero.css';
 

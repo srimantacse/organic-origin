@@ -15,7 +15,7 @@ export const nav = [
 export const hero = {
   eyebrow: "From Nature's Lap",
   title: "to Your Family's Table",
-  body: 'Pure mountain produce, grown without chemicals, by the farmers of Kalimpong, Samsing and Jorethang, and delivered fresh and honest to your door.',
+  body: 'Pure mountain produce, grown without chemicals, by the farmers of Kalimpong, Samsing, Jorethang and Manipur, and delivered fresh and honest to your door.',
   signpost: ['Healthy Food', 'Happier People', 'Greener Planet'],
   ctaPrimary: { label: 'Explore Catalog', href: '#products' },
   ctaSecondary: { label: 'Our Story', href: '#about' },
@@ -27,7 +27,7 @@ export const about = {
     {
       icon: 'Leaf',
       title: 'About Us',
-      body: 'Organic Origin – O2 is an organic farming company rooted in the Himalayan foothills of Kalimpong, with produce grown by local farmers across Kalimpong, Samsing and Jorethang. We grow food the way nature intended: chemical-free, nutritious and full of mountain freshness. Every harvest supports the farmers who tend the land and helps protect the fragile Himalayan ecosystem.',
+      body: 'Organic Origin – O2 is an organic farming company rooted in the Himalayan foothills of Kalimpong and Manipur, with produce grown by local farmers across Kalimpong, Samsing, Jorethang and Manipur. We grow food the way nature intended: chemical-free, nutritious and full of mountain freshness. Every harvest supports the farmers who tend the land and helps protect the fragile Himalayan ecosystem.',
     },
     {
       icon: 'Eye',
@@ -82,7 +82,7 @@ export const cta = {
 
 export const contact = {
   companyLine: 'Organic Origin – O2',
-  address: 'Kalimpong, West Bengal, India',
+  address: 'Kalimpong (WB), Manipur, India',
   phone: '+91 8293429313',
   phoneHref: '+918293429313',
   email: 'organicorigino2@gmail.com',

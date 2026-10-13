@@ -8,7 +8,7 @@ export default function About() {
       <div className="container">
         <div className="section-head">
           <p className="eyebrow">{about.heading}</p>
-          <h2>Rooted in the mountains of Kalimpong</h2>
+          <h2>Rooted in the mountains of North East</h2>
         </div>
 
         <div className="about__grid">

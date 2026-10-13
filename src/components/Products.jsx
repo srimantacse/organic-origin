@@ -1,9 +1,25 @@
 import { useEffect, useState } from 'react';
-import catalog from '../data/products.json';
+import kalimpong from '../data/product_kalimpong.json';
+import manipur from '../data/product_manipur.json';
 import './Products.css';
 
-const images = import.meta.glob('../../assets/*.png', { eager: true, import: 'default' });
-const imageFor = (name) => images[`../../assets/${name}.png`];
+const catalog = kalimpong;
+const ITEMS = [
+  ...kalimpong.items.map((p) => ({ ...p, catalog: kalimpong })),
+  ...manipur.items.map((p) => ({ ...p, catalog: manipur })),
+];
+
+const images = import.meta.glob('../../assets_small/*.webp', { eager: true, import: 'default' });
+const imageFor = (name) => images[`../../assets_small/${name}.webp`];
+
+const Thumb = ({ name, alt, className }) => {
+  const src = imageFor(name);
+  return src ? (
+    <img className={className} src={src} alt={alt} loading="lazy" />
+  ) : (
+    <span className={`${className} product-img-missing`} role="img" aria-label={alt}>🌿</span>
+  );
+};
 
 const DETAILS = [
   ['Origin', 'origin'],
@@ -15,7 +31,28 @@ const DETAILS = [
   ['Quality', 'certification'],
 ];
 
-const Rating = ({ rating, count }) => (
+const label = (k) => k.replace(/([A-Z])/g, ' $1').replace(/^./, (c) => c.toUpperCase());
+
+const Nutrition = ({ n }) => {
+  const rows = (o) => Object.entries(o).filter(([k]) => !['per', 'reference', 'variety'].includes(k));
+  const groups = n.varieties ?? [n];
+  return (
+    <div className="product-nutrition">
+      <strong>Nutrition <small>(per {n.per})</small></strong>
+      {groups.map((g, i) => (
+        <dl key={g.variety ?? i} className="product-nutrition__list">
+          {g.variety && <dt className="product-nutrition__variety">{g.variety}</dt>}
+          {rows(g).map(([k, v]) => (
+            <div key={k}><dt>{label(k)}</dt><dd>{v}</dd></div>
+          ))}
+        </dl>
+      ))}
+      {n.reference && <small className="price-chart__note">Reference: {n.reference}</small>}
+    </div>
+  );
+};
+
+const Rating = ({ catalog, rating, count }) => (
   <span className="product-rating" title={catalog.ratingMeta.sample ? 'Sample rating' : undefined}>
     <span className="product-rating__stars" aria-hidden="true">
       {'★'.repeat(Math.round(rating.score))}
@@ -25,21 +62,25 @@ const Rating = ({ rating, count }) => (
   </span>
 );
 
-const Mrp = ({ p }) => (
-  <span className="product-card__mrp">
-    MRP {catalog.currency}
-    {p.mrp} <small>{p.unit}</small>
-  </span>
-);
+const Mrp = ({ catalog, p }) =>
+  p.mrp == null ? (
+    <span className="product-card__mrp">Price on request</span>
+  ) : (
+    <span className="product-card__mrp">
+      MRP {catalog.currency}
+      {p.mrp} <small>{p.unit}</small>
+    </span>
+  );
 
-function PriceChart({ history, unit, ourPrice, sources }) {
+function PriceChart({ catalog, history, unit, ourPrice, sources }) {
+  if (!history?.length) return null;
   const W = 320;
   const H = 150;
   const pad = { l: 40, r: 12, t: 12, b: 24 };
-  const prices = [...history.map((h) => h.price), ourPrice];
+  const prices = [...history.map((h) => h.price), ...(ourPrice == null ? [] : [ourPrice])];
   const min = Math.min(...prices) * 0.9;
   const max = Math.max(...prices) * 1.05;
-  const x = (i) => pad.l + (i * (W - pad.l - pad.r)) / (history.length - 1);
+  const x = (i) => pad.l + (i * (W - pad.l - pad.r)) / Math.max(history.length - 1, 1);
   const y = (v) => pad.t + ((max - v) * (H - pad.t - pad.b)) / (max - min);
   const points = history.map((h, i) => `${x(i)},${y(h.price)}`).join(' ');
   const meta = catalog.priceHistoryMeta;
@@ -59,9 +100,11 @@ function PriceChart({ history, unit, ourPrice, sources }) {
           </g>
         ))}
         <polyline points={points} className="price-chart__line" />
-        <circle cx={x(history.length - 1)} cy={y(ourPrice)} r="6" className="price-chart__ours">
-          <title>{`Our price: ${catalog.currency}${ourPrice}`}</title>
-        </circle>
+        {ourPrice != null && (
+          <circle cx={x(history.length - 1)} cy={y(ourPrice)} r="6" className="price-chart__ours">
+            <title>{`Our price: ${catalog.currency}${ourPrice}`}</title>
+          </circle>
+        )}
         {history.map((h, i) => (
           <g key={h.year}>
             <circle cx={x(i)} cy={y(h.price)} r="3.5" className="price-chart__dot">
@@ -75,7 +118,9 @@ function PriceChart({ history, unit, ourPrice, sources }) {
       </svg>
       <div className="price-chart__legend">
         <span><i className="price-chart__key price-chart__key--market" /> Market price</span>
-        <span><i className="price-chart__key price-chart__key--ours" /> Our price ({catalog.currency}{ourPrice})</span>
+        {ourPrice != null && (
+          <span><i className="price-chart__key price-chart__key--ours" /> Our price ({catalog.currency}{ourPrice})</span>
+        )}
       </div>
       <small className="price-chart__note">
         {meta.sample ? 'Sample data: ' : 'Source: '}
@@ -151,7 +196,7 @@ export default function Products() {
         </div>
 
         <div className="products__grid">
-          {catalog.items.map((p, i) => (
+          {ITEMS.map((p, i) => (
             <button
               type="button"
               className="product-card"
@@ -160,15 +205,10 @@ export default function Products() {
               onClick={() => setSelected(p)}
               aria-haspopup="dialog"
             >
-              <img
-                className="product-card__img"
-                src={imageFor(p.image)}
-                alt={p.name}
-                loading="lazy"
-              />
+              <Thumb className="product-card__img" name={p.image} alt={p.name} />
               <span className="product-card__name">{p.name}</span>
               <em className="product-card__sci">{p.scientificName}</em>
-              <Mrp p={p} />
+              <Mrp catalog={p.catalog} p={p} />
             </button>
           ))}
         </div>
@@ -192,21 +232,23 @@ export default function Products() {
               ×
             </button>
             <div className="product-modal__media">
-              <img className="product-modal__img" src={imageFor(selected.image)} alt={selected.name} />
-              <PriceChart history={selected.priceHistory} unit={selected.unit} ourPrice={selected.mrp} sources={selected.priceSources} />
+              <Thumb className="product-modal__img" name={selected.image} alt={selected.name} />
+              <PriceChart catalog={selected.catalog} history={selected.priceHistory} unit={selected.unit} ourPrice={selected.mrp} sources={selected.priceSources} />
             </div>
             <div className="product-modal__body">
               <h3>{selected.name}</h3>
               <em className="product-card__sci">{selected.scientificName}</em>
-              <Rating rating={selected.rating} count={selected.rating.count + (likes[selected.name] ? 1 : 0)} />
+              {selected.rating && (
+                <Rating catalog={selected.catalog} rating={selected.rating} count={selected.rating.count + (likes[selected.name] ? 1 : 0)} />
+              )}
               <ThumbsUp
                 liked={Boolean(likes[selected.name])}
-                count={selected.rating.count + (likes[selected.name] ? 1 : 0)}
+                count={(selected.rating?.count ?? 0) + (likes[selected.name] ? 1 : 0)}
                 onToggle={() => toggleLike(selected.name)}
               />
               <p>{selected.summary}</p>
               <dl className="product-card__details">
-                {DETAILS.map(([label, key]) => (
+                {DETAILS.filter(([, key]) => selected[key]).map(([label, key]) => (
                   <div key={key}>
                     <dt>{label}</dt>
                     <dd>{selected[key]}</dd>
@@ -224,7 +266,30 @@ export default function Products() {
                   </span>
                 ))}
               </p>
-              <Mrp p={selected} />
+              {selected.giTagged && (
+                <span className="product-gi">GI tagged{selected.giNumber ? ` · GI No. ${selected.giNumber}` : ''}</span>
+              )}
+              {selected.nutrition && <Nutrition n={selected.nutrition} />}
+              {selected.variants?.length > 0 && (
+                <table className="product-modal__variants">
+                  <thead>
+                    <tr><th>Pack</th><th>Net wt.</th><th>Price</th></tr>
+                  </thead>
+                  <tbody>
+                    {selected.variants.map((v) => (
+                      <tr key={`${v.product}-${v.netWeight}`}>
+                        <td>{v.product}</td>
+                        <td>{v.netWeight}</td>
+                        <td>{selected.catalog.currency}{v.price}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              )}
+              <Mrp catalog={selected.catalog} p={selected} />
+              {selected.catalog.publisher && (
+                <small className="price-chart__note">Source: {selected.catalog.publisher.name}</small>
+              )}
             </div>
           </div>
         </div>

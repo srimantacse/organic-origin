@@ -1,0 +1,1060 @@
+{
+  "heading": "Product Catalogue 2026",
+  "sub": "Organic Products of Manipur",
+  "currency": "₹",
+  "publisher": {
+    "name": "Manipur Organic Mission Agency (MOMA)",
+    "programme": "Mission Organic Value Chain Development for North Eastern Region (MOVCDNER)",
+    "ministry": "Ministry of Agriculture & Farmers Welfare, Government of India and Government of Manipur"
+  },
+  "items": [
+    {
+      "name": "Chak-hao (Black Aromatic Rice)",
+      "localName": "Chak-hao",
+      "scientificName": "Oryza sativa",
+      "variety": "Poireiton and Amubi",
+      "image": "chak-hao",
+      "summary": "A super food known for its attractive colour and aromatic flavour, and one of the richest sources of anthocyanin among food grains. Its pleasant aroma combined with stickiness sets it apart from black rice grown elsewhere.",
+      "origin": "Manipur",
+      "bestSeason": "Available throughout the year; peak season December–April.",
+      "uses": "Rich in antioxidants (anthocyanin) with a unique aroma.",
+      "shelfLife": "Best before 10 months from the date of packing",
+      "storage": "",
+      "packaging": "Pouch",
+      "certification": "Organic (MOVCDNER); GI tagged (GI No. 602 – Chak-Hao)",
+      "giTagged": true,
+      "giNumber": 602,
+      "nutrition": {
+        "per": "100 g",
+        "reference": "CSIR - NEIST, Jorhat, Assam",
+        "varieties": [
+          {
+            "variety": "Chak-hao Amubi",
+            "energy": 331.27,
+            "carbohydrate": 58.84,
+            "totalDietaryFibre": 17.7,
+            "protein": 10.29,
+            "fat": 2.35,
+            "totalAnthocyanin": 1.57,
+            "iron": 1.62
+          },
+          {
+            "variety": "Chak-hao Poireiton",
+            "energy": 344.2,
+            "carbohydrate": 63.82,
+            "totalDietaryFibre": 14.98,
+            "protein": 9.63,
+            "fat": 2.44,
+            "totalAnthocyanin": 1.62,
+            "iron": 2.82
+          }
+        ]
+      },
+      "rating": {
+        "score": 4.6,
+        "count": 31
+      },
+      "mrp": 150,
+      "unit": "per 500 g",
+      "variants": [
+        {
+          "product": "Chak-Hao Aromatic Black Rice (Sidayai-Nadayai)",
+          "netWeight": "500 g",
+          "price": 150,
+          "producer": "Chingarel Organic Producer Company Limited"
+        }
+      ],
+      "links": [
+        {
+          "label": "Chak-hao",
+          "url": "https://en.wikipedia.org/wiki/Chak-hao"
+        }
+      ],
+      "priceHistory": [
+        {
+          "year": 2017,
+          "price": 116
+        },
+        {
+          "year": 2018,
+          "price": 120
+        },
+        {
+          "year": 2019,
+          "price": 127
+        },
+        {
+          "year": 2020,
+          "price": 130
+        },
+        {
+          "year": 2021,
+          "price": 138
+        },
+        {
+          "year": 2022,
+          "price": 144
+        },
+        {
+          "year": 2023,
+          "price": 147
+        },
+        {
+          "year": 2024,
+          "price": 156
+        },
+        {
+          "year": 2025,
+          "price": 159
+        },
+        {
+          "year": 2026,
+          "price": 167
+        }
+      ],
+      "priceSources": [
+        {
+          "label": "MOMA Product Catalogue 2026",
+          "url": "https://www.momamanipur.com/"
+        },
+        {
+          "label": "Agmarknet (mandi prices)",
+          "url": "https://agmarknet.gov.in/"
+        }
+      ]
+    },
+    {
+      "name": "Manipur White Sticky Rice",
+      "localName": "Maniphou / Thoibi",
+      "scientificName": "Oryza sativa",
+      "variety": "RCM-13 (RC-Maniphou-12) and Thoibi",
+      "image": "manipu_white_sticky_rice",
+      "summary": "Low-amylose white sticky rice with soft cooking qualities preferred by local people. RCM-13 is a short-duration HYV maturing in 90–105 days, bearing 150–200 spikelets per panicle and yielding about 4.0–5.0 t/ha under good management; it also fits the SRI system.",
+      "origin": "Manipur",
+      "bestSeason": "Available throughout the year; peak season December–April.",
+      "uses": "Everyday cooking; soft cooking quality.",
+      "shelfLife": "",
+      "storage": "",
+      "packaging": "Pouch",
+      "certification": "Organic (MOVCDNER)",
+      "giTagged": false,
+      "nutrition": {
+        "per": "100 g",
+        "reference": "ICAR - NEH Quality Analysis Laboratory, Manipur",
+        "varieties": [
+          {
+            "variety": "HYV Rice – Maniphou (RCM-13)",
+            "energyKcal": 356.05,
+            "protein": 7.5,
+            "totalCarbohydrate": 77.53,
+            "fat": 1.77
+          },
+          {
+            "variety": "Thoibi Rice",
+            "energyKcal": 362.86,
+            "protein": 10.0,
+            "totalCarbohydrate": 75.18,
+            "fat": 2.46
+          }
+        ]
+      },
+      "rating": {
+        "score": 4.7,
+        "count": 87
+      },
+      "mrp": 70,
+      "unit": "per kg",
+      "variants": [
+        {
+          "product": "Manipur White Sticky Rice (RCM-13)",
+          "netWeight": "1 kg",
+          "price": 70,
+          "producer": "Chakhao Poireiton Organic Producer Company Limited"
+        },
+        {
+          "product": "Manipur White Sticky Rice (Thoibi)",
+          "netWeight": "1 kg",
+          "price": 70,
+          "producer": ""
+        },
+        {
+          "product": "Manipur White Sticky Rice (RC Maniphou-13)",
+          "netWeight": "2 kg",
+          "price": 170,
+          "producer": "Nongpok Pukkei Organic Producer Company Limited"
+        }
+      ],
+      "links": [
+        {
+          "label": "Glutinous rice",
+          "url": "https://en.wikipedia.org/wiki/Glutinous_rice"
+        }
+      ],
+      "priceHistory": [
+        {
+          "year": 2017,
+          "price": 50
+        },
+        {
+          "year": 2018,
+          "price": 51
+        },
+        {
+          "year": 2019,
+          "price": 53
+        },
+        {
+          "year": 2020,
+          "price": 57
+        },
+        {
+          "year": 2021,
+          "price": 60
+        },
+        {
+          "year": 2022,
+          "price": 61
+        },
+        {
+          "year": 2023,
+          "price": 65
+        },
+        {
+          "year": 2024,
+          "price": 71
+        },
+        {
+          "year": 2025,
+          "price": 75
+        },
+        {
+          "year": 2026,
+          "price": 78
+        }
+      ],
+      "priceSources": [
+        {
+          "label": "MOMA Product Catalogue 2026",
+          "url": "https://www.momamanipur.com/"
+        },
+        {
+          "label": "Agmarknet (mandi prices)",
+          "url": "https://agmarknet.gov.in/"
+        }
+      ]
+    },
+    {
+      "name": "Poha (Chempak)",
+      "localName": "Chempak",
+      "scientificName": "Oryza sativa",
+      "variety": "Flattened Manipur white rice",
+      "image": "poha",
+      "summary": "Flattened rice / rice flakes – a quick, wholesome breakfast. Rich in antioxidants and vitamins, gluten-free, a good source of carbohydrates, and organic.",
+      "origin": "Manipur",
+      "bestSeason": "",
+      "uses": "Quick breakfast.",
+      "shelfLife": "",
+      "storage": "",
+      "packaging": "Pouch",
+      "certification": "Organic (MOVCDNER)",
+      "giTagged": false,
+      "nutrition": null,
+      "rating": {
+        "score": 4.4,
+        "count": 213
+      },
+      "mrp": 135,
+      "unit": "per kg",
+      "variants": [
+        {
+          "product": "Poha Chempak (Flattened Manipur White Rice)",
+          "netWeight": "1 kg",
+          "price": 135,
+          "producer": ""
+        }
+      ],
+      "links": [
+        {
+          "label": "Flattened rice",
+          "url": "https://en.wikipedia.org/wiki/Flattened_rice"
+        }
+      ],
+      "priceHistory": [
+        {
+          "year": 2017,
+          "price": 103
+        },
+        {
+          "year": 2018,
+          "price": 105
+        },
+        {
+          "year": 2019,
+          "price": 114
+        },
+        {
+          "year": 2020,
+          "price": 118
+        },
+        {
+          "year": 2021,
+          "price": 122
+        },
+        {
+          "year": 2022,
+          "price": 125
+        },
+        {
+          "year": 2023,
+          "price": 131
+        },
+        {
+          "year": 2024,
+          "price": 140
+        },
+        {
+          "year": 2025,
+          "price": 145
+        },
+        {
+          "year": 2026,
+          "price": 155
+        }
+      ],
+      "priceSources": [
+        {
+          "label": "MOMA Product Catalogue 2026",
+          "url": "https://www.momamanipur.com/"
+        },
+        {
+          "label": "Agmarknet (mandi prices)",
+          "url": "https://agmarknet.gov.in/"
+        }
+      ]
+    },
+    {
+      "name": "King Chilli",
+      "localName": "U-Morok",
+      "scientificName": "Capsicum annuum",
+      "variety": "",
+      "image": "king_chilli",
+      "summary": "Cultivated in Manipur since time immemorial and among the hottest chillies in the world, with a reported 20,41,427 Scoville Heat Units and 3–5% capsaicin – higher than any other Indian chilli.",
+      "origin": "Manipur",
+      "bestSeason": "Available May–October.",
+      "uses": "Fresh or dried in culinary preparations; whole dried, ground/powdered, pickles, sauce, chutney, oleoresin, essential oil, and as an ingredient in pepper spray.",
+      "shelfLife": "",
+      "storage": "",
+      "packaging": "Pouch",
+      "certification": "Organic (MOVCDNER)",
+      "giTagged": false,
+      "scovilleHeatUnits": 2041427,
+      "nutrition": {
+        "per": "100 g",
+        "reference": "ICAR - NEH Quality Analysis Laboratory, Manipur; Quality Evaluation Laboratory, Spices Board of India, Kochi",
+        "capsaicinContent": 4.1,
+        "energyKJ": 24.44,
+        "carbohydrate": 2.36,
+        "dietaryFibre": 4.83,
+        "protein": 1.59
+      },
+      "rating": {
+        "score": 4.3,
+        "count": 214
+      },
+      "mrp": 160,
+      "unit": "per 50 g",
+      "variants": [
+        {
+          "product": "Organic King Chilli Powder",
+          "netWeight": "50 g",
+          "price": 160,
+          "producer": "AK Spices Industry"
+        },
+        {
+          "product": "Organic King Chilli Whole Dry",
+          "netWeight": "50 g",
+          "price": 160,
+          "producer": "Reangluang Organic Farmer Producer Company Limited"
+        },
+        {
+          "product": "Dry King Chilli",
+          "netWeight": "200 g",
+          "price": 750,
+          "producer": "Loubuk Maikei Organic Farmer Producer Company Limited"
+        }
+      ],
+      "links": [
+        {
+          "label": "Bhut jolokia",
+          "url": "https://en.wikipedia.org/wiki/Bhut_jolokia"
+        }
+      ],
+      "priceHistory": [
+        {
+          "year": 2017,
+          "price": 120
+        },
+        {
+          "year": 2018,
+          "price": 125
+        },
+        {
+          "year": 2019,
+          "price": 132
+        },
+        {
+          "year": 2020,
+          "price": 136
+        },
+        {
+          "year": 2021,
+          "price": 139
+        },
+        {
+          "year": 2022,
+          "price": 144
+        },
+        {
+          "year": 2023,
+          "price": 153
+        },
+        {
+          "year": 2024,
+          "price": 162
+        },
+        {
+          "year": 2025,
+          "price": 167
+        },
+        {
+          "year": 2026,
+          "price": 178
+        }
+      ],
+      "priceSources": [
+        {
+          "label": "MOMA Product Catalogue 2026",
+          "url": "https://www.momamanipur.com/"
+        },
+        {
+          "label": "Agmarknet (mandi prices)",
+          "url": "https://agmarknet.gov.in/"
+        }
+      ]
+    },
+    {
+      "name": "Sirarakhong Chilli",
+      "localName": "Sirarakhong Hathei",
+      "scientificName": "Capsicum annuum",
+      "variety": "",
+      "image": "Sirarakhong_Chilli",
+      "summary": "A GI-tagged chilli with distinctive flavour and colour that grows only in Sirarakhong village, Ukhrul district. Its high extractable colour value (164 ASTA) makes it suitable for producing edible natural colour.",
+      "origin": "Sirarakhong village, Ukhrul district, Manipur",
+      "bestSeason": "Available June–September.",
+      "uses": "Aroma and colour in cooking; commercial production of edible natural colour.",
+      "shelfLife": "",
+      "storage": "",
+      "packaging": "Pouch",
+      "certification": "Organic (MOVCDNER); GI tagged (GI No. 592 – Sirarakhong Hathei)",
+      "giTagged": true,
+      "giNumber": 592,
+      "nutrition": {
+        "per": "100 g",
+        "reference": "GI Journal",
+        "energyKJ": 23.87,
+        "capsaicin": 0.03,
+        "vitaminC": 2.0,
+        "astaExtractableColourValue": 164,
+        "totalCarotenoidsPericarpPlacenta": "4.32 mg/g",
+        "totalCarotenoidsSeed": "0.20 g/100g"
+      },
+      "rating": {
+        "score": 4.8,
+        "count": 47
+      },
+      "mrp": 400,
+      "unit": "per 200 g",
+      "variants": [
+        {
+          "product": "Sirarakhong Chilli Whole Dried",
+          "netWeight": "200 g",
+          "price": 400,
+          "producer": "Sivathei Farmer Producer Company Limited"
+        }
+      ],
+      "links": [
+        {
+          "label": "Chili pepper",
+          "url": "https://en.wikipedia.org/wiki/Chili_pepper"
+        }
+      ],
+      "priceHistory": [
+        {
+          "year": 2017,
+          "price": 266
+        },
+        {
+          "year": 2018,
+          "price": 278
+        },
+        {
+          "year": 2019,
+          "price": 298
+        },
+        {
+          "year": 2020,
+          "price": 318
+        },
+        {
+          "year": 2021,
+          "price": 330
+        },
+        {
+          "year": 2022,
+          "price": 351
+        },
+        {
+          "year": 2023,
+          "price": 370
+        },
+        {
+          "year": 2024,
+          "price": 401
+        },
+        {
+          "year": 2025,
+          "price": 428
+        },
+        {
+          "year": 2026,
+          "price": 446
+        }
+      ],
+      "priceSources": [
+        {
+          "label": "MOMA Product Catalogue 2026",
+          "url": "https://www.momamanipur.com/"
+        },
+        {
+          "label": "Agmarknet (mandi prices)",
+          "url": "https://agmarknet.gov.in/"
+        }
+      ]
+    },
+    {
+      "name": "Pineapple",
+      "localName": "Pineapple",
+      "scientificName": "Ananas comosus",
+      "variety": "Kew and Queen",
+      "image": "pineapple",
+      "summary": "A good source of bromelain, a digestive enzyme, and rich in vitamins, calcium, magnesium, potassium and iron. Kew is large, light-yellow, almost fibreless and very juicy; Queen is rich yellow, crisper and less juicy, with a pleasant aroma.",
+      "origin": "Manipur",
+      "bestSeason": "Queen: May–August; Kew: July–January.",
+      "uses": "Kew is popular for processing; Queen is popular as a table fruit.",
+      "shelfLife": "",
+      "storage": "",
+      "packaging": "Tetra pack (drink)",
+      "certification": "Organic (MOVCDNER)",
+      "giTagged": false,
+      "nutrition": {
+        "per": "100 g",
+        "energyKcal": 53,
+        "carbohydrate": 12.87,
+        "totalSugars": 9.98,
+        "dietaryFibre": 0.2,
+        "fat": 0.12,
+        "protein": 0.36
+      },
+      "rating": {
+        "score": 4.6,
+        "count": 33
+      },
+      "mrp": 10,
+      "unit": "per 160 ml",
+      "variants": [
+        {
+          "product": "Likla Pineapple Drink",
+          "netWeight": "160 ml",
+          "price": 10,
+          "producer": "Thangjam Agro Industries Pvt. Ltd."
+        }
+      ],
+      "links": [
+        {
+          "label": "Pineapple",
+          "url": "https://en.wikipedia.org/wiki/Pineapple"
+        }
+      ],
+      "priceHistory": [
+        {
+          "year": 2017,
+          "price": 7.2
+        },
+        {
+          "year": 2018,
+          "price": 7.4
+        },
+        {
+          "year": 2019,
+          "price": 7.7
+        },
+        {
+          "year": 2020,
+          "price": 8.3
+        },
+        {
+          "year": 2021,
+          "price": 8.6
+        },
+        {
+          "year": 2022,
+          "price": 9.0
+        },
+        {
+          "year": 2023,
+          "price": 9.2
+        },
+        {
+          "year": 2024,
+          "price": 9.8
+        },
+        {
+          "year": 2025,
+          "price": 10.5
+        },
+        {
+          "year": 2026,
+          "price": 11.2
+        }
+      ],
+      "priceSources": [
+        {
+          "label": "MOMA Product Catalogue 2026",
+          "url": "https://www.momamanipur.com/"
+        },
+        {
+          "label": "Agmarknet (mandi prices)",
+          "url": "https://agmarknet.gov.in/"
+        }
+      ]
+    },
+    {
+      "name": "Kiwifruit",
+      "localName": "Kiwifruit",
+      "scientificName": "Actinidia deliciosa",
+      "variety": "Hayward",
+      "image": "kiwi",
+      "summary": "Nutrient-dense, low-calorie, slightly acidic fruit with antioxidants, fibre and immunity boosters; high in vitamins C and K. Its seeds yield an oil rich in alpha-linolenic acid (omega-3).",
+      "origin": "Manipur",
+      "bestSeason": "Available October–January.",
+      "uses": "Eating fresh; dried kiwi snack.",
+      "shelfLife": "",
+      "storage": "",
+      "packaging": "Pouch (dried kiwi)",
+      "certification": "Organic (MOVCDNER)",
+      "giTagged": false,
+      "nutrition": null,
+      "rating": {
+        "score": 4.2,
+        "count": 80
+      },
+      "mrp": 240,
+      "unit": "per 250 g",
+      "variants": [
+        {
+          "product": "Dried Kiwi",
+          "netWeight": "250 g",
+          "price": 240,
+          "producer": "Rinrum Organic Producer Company Limited"
+        }
+      ],
+      "links": [
+        {
+          "label": "Kiwifruit",
+          "url": "https://en.wikipedia.org/wiki/Kiwifruit"
+        }
+      ],
+      "priceHistory": [
+        {
+          "year": 2017,
+          "price": 151
+        },
+        {
+          "year": 2018,
+          "price": 157
+        },
+        {
+          "year": 2019,
+          "price": 168
+        },
+        {
+          "year": 2020,
+          "price": 178
+        },
+        {
+          "year": 2021,
+          "price": 190
+        },
+        {
+          "year": 2022,
+          "price": 199
+        },
+        {
+          "year": 2023,
+          "price": 215
+        },
+        {
+          "year": 2024,
+          "price": 233
+        },
+        {
+          "year": 2025,
+          "price": 245
+        },
+        {
+          "year": 2026,
+          "price": 262
+        }
+      ],
+      "priceSources": [
+        {
+          "label": "MOMA Product Catalogue 2026",
+          "url": "https://www.momamanipur.com/"
+        },
+        {
+          "label": "Agmarknet (mandi prices)",
+          "url": "https://agmarknet.gov.in/"
+        }
+      ]
+    },
+    {
+      "name": "Kachai Lemon",
+      "localName": "Kachai lemon (Kachai Champra)",
+      "scientificName": "Citrus jambhiri Lush.",
+      "variety": "Local",
+      "image": "kachai_lemon",
+      "summary": "GI-tagged lemon prized for its unique taste and flavour, and a rich source of ascorbic acid (45–51 mg/100 ml juice), with 36–56 ml of juice per fruit.",
+      "origin": "Kachai village, Ukhrul district, Manipur",
+      "bestSeason": "Available November–March.",
+      "uses": "",
+      "shelfLife": "",
+      "storage": "",
+      "packaging": "",
+      "certification": "Organic (MOVCDNER); GI tagged (GI No. 466 – Kachai Lemon)",
+      "giTagged": true,
+      "giNumber": 466,
+      "nutrition": {
+        "per": "100 ml juice",
+        "reference": "ICAR - NEH Quality Analysis Laboratory, Manipur",
+        "ascorbicAcidMg": 66.7
+      },
+      "rating": {
+        "score": 4.4,
+        "count": 179
+      },
+      "mrp": null,
+      "unit": "per kg",
+      "variants": [],
+      "links": [
+        {
+          "label": "Kachai lemon",
+          "url": "https://en.wikipedia.org/wiki/Kachai_lemon"
+        }
+      ],
+      "priceHistory": [
+        {
+          "year": 2017,
+          "price": 65
+        },
+        {
+          "year": 2018,
+          "price": 69
+        },
+        {
+          "year": 2019,
+          "price": 74
+        },
+        {
+          "year": 2020,
+          "price": 81
+        },
+        {
+          "year": 2021,
+          "price": 87
+        },
+        {
+          "year": 2022,
+          "price": 90
+        },
+        {
+          "year": 2023,
+          "price": 95
+        },
+        {
+          "year": 2024,
+          "price": 101
+        },
+        {
+          "year": 2025,
+          "price": 103
+        },
+        {
+          "year": 2026,
+          "price": 109
+        }
+      ],
+      "priceSources": [
+        {
+          "label": "MOMA Product Catalogue 2026",
+          "url": "https://www.momamanipur.com/"
+        },
+        {
+          "label": "Agmarknet (mandi prices)",
+          "url": "https://agmarknet.gov.in/"
+        }
+      ]
+    },
+    {
+      "name": "Tamenglong Orange / Mandarin",
+      "localName": "Tamenglong Orange",
+      "scientificName": "Citrus reticulata",
+      "variety": "Local",
+      "image": "orange",
+      "summary": "GI-tagged mandarin found only in Tamenglong district. Fruits weigh around 90–110 g, are loose-skinned with about 10 segments and abundant juice (40–50%), with well-blended sweetness and acidity and plenty of vitamin C.",
+      "origin": "Tamenglong district, Manipur",
+      "bestSeason": "Available November–February.",
+      "uses": "",
+      "shelfLife": "",
+      "storage": "",
+      "packaging": "",
+      "certification": "Organic (MOVCDNER); GI tagged (GI No. 590 – Tamenglong Orange)",
+      "giTagged": true,
+      "giNumber": 590,
+      "nutrition": null,
+      "rating": {
+        "score": 4.2,
+        "count": 75
+      },
+      "mrp": null,
+      "unit": "per kg",
+      "variants": [],
+      "links": [
+        {
+          "label": "Mandarin orange",
+          "url": "https://en.wikipedia.org/wiki/Mandarin_orange"
+        }
+      ],
+      "priceHistory": [
+        {
+          "year": 2017,
+          "price": 49
+        },
+        {
+          "year": 2018,
+          "price": 51
+        },
+        {
+          "year": 2019,
+          "price": 52
+        },
+        {
+          "year": 2020,
+          "price": 56
+        },
+        {
+          "year": 2021,
+          "price": 58
+        },
+        {
+          "year": 2022,
+          "price": 60
+        },
+        {
+          "year": 2023,
+          "price": 63
+        },
+        {
+          "year": 2024,
+          "price": 68
+        },
+        {
+          "year": 2025,
+          "price": 69
+        },
+        {
+          "year": 2026,
+          "price": 73
+        }
+      ],
+      "priceSources": [
+        {
+          "label": "MOMA Product Catalogue 2026",
+          "url": "https://www.momamanipur.com/"
+        },
+        {
+          "label": "Agmarknet (mandi prices)",
+          "url": "https://agmarknet.gov.in/"
+        }
+      ]
+    },
+    {
+      "name": "Passion Fruit",
+      "localName": "Sitaphon",
+      "scientificName": "Passiflora indica",
+      "variety": "Local (Yellow and Purple)",
+      "image": "passion_fruit",
+      "summary": "Fruit of the Passiflora vine, rich in antioxidants, vitamins and plant compounds. Grown in two forms: yellow (P. edulis flavicarpa) and purple (P. edulis Sims).",
+      "origin": "Manipur",
+      "bestSeason": "Available July–October.",
+      "uses": "Eating fresh; fruit drink.",
+      "shelfLife": "",
+      "storage": "",
+      "packaging": "Tetra pack (drink)",
+      "certification": "Organic (MOVCDNER)",
+      "giTagged": false,
+      "nutrition": null,
+      "rating": {
+        "score": 4.7,
+        "count": 204
+      },
+      "mrp": 10,
+      "unit": "per 160 ml",
+      "variants": [
+        {
+          "product": "Likla Passion Fruit Drink",
+          "netWeight": "160 ml",
+          "price": 10,
+          "producer": "Thangjam Agro Industries Pvt. Ltd."
+        }
+      ],
+      "links": [
+        {
+          "label": "Passion fruit",
+          "url": "https://en.wikipedia.org/wiki/Passion_fruit"
+        }
+      ],
+      "priceHistory": [
+        {
+          "year": 2017,
+          "price": 6.4
+        },
+        {
+          "year": 2018,
+          "price": 6.9
+        },
+        {
+          "year": 2019,
+          "price": 7.5
+        },
+        {
+          "year": 2020,
+          "price": 8.1
+        },
+        {
+          "year": 2021,
+          "price": 8.4
+        },
+        {
+          "year": 2022,
+          "price": 8.8
+        },
+        {
+          "year": 2023,
+          "price": 9.1
+        },
+        {
+          "year": 2024,
+          "price": 10.0
+        },
+        {
+          "year": 2025,
+          "price": 10.8
+        },
+        {
+          "year": 2026,
+          "price": 11.2
+        }
+      ],
+      "priceSources": [
+        {
+          "label": "MOMA Product Catalogue 2026",
+          "url": "https://www.momamanipur.com/"
+        },
+        {
+          "label": "Agmarknet (mandi prices)",
+          "url": "https://agmarknet.gov.in/"
+        }
+      ]
+    }
+  ],
+  "entrepreneurProducts": [
+    {
+      "product": "Fermented Juice",
+      "maker": "M/s Zhereih Foods"
+    },
+    {
+      "product": "Fruit Candies",
+      "maker": "M/s Zhereih Foods"
+    },
+    {
+      "product": "Mushroom Cookies",
+      "maker": "M/s Binita Mushroom Centre"
+    },
+    {
+      "product": "Thambou Chips",
+      "maker": "Yokchabi Enterprises"
+    },
+    {
+      "product": "Chak-Hao Dry Cake",
+      "maker": "Henna Foods"
+    },
+    {
+      "product": "Tetrapack Juice (Likla)",
+      "maker": "M/s Thangjam Agro Industries Private Limited"
+    },
+    {
+      "product": "Fruit Candies",
+      "maker": "Kanglei Foods"
+    }
+  ],
+  "contact": {
+    "headquarters": {
+      "name": "Manipur Organic Mission Agency (MOMA)",
+      "address": "Department of Horticulture & Soil Conservation, Sanjenthong, Manipur - 795001",
+      "email": "manipurorganic@gmail.com",
+      "website": "https://www.momamanipur.com/",
+      "phone": [
+        "0385-2441588",
+        "+91 7005838767"
+      ]
+    },
+    "outlets": [
+      {
+        "name": "Organic Manipur Outlet",
+        "address": "Dilli Haat, Opposite INA, Kidwai Nagar, Gate No. 2, Stall No. 18, New Delhi - 110023",
+        "phone": [
+          "+91 98738 31102"
+        ],
+        "email": "mangalorgimphal@gmail.com"
+      },
+      {
+        "name": "Organic Outlet – Manipur Middle East Foodstuff Trading SSP - L.L.C",
+        "address": "Ajman New Public Market, Shop No. 2, Jurf Industrial Area 1, Ajman, UAE",
+        "phone": [
+          "+971508609559",
+          "+971502915675"
+        ],
+        "email": "manipur.metrading@gmail.com"
+      }
+    ]
+  },
+  "priceHistoryMeta": {
+    "title": "Indian market price, last 10 years",
+    "sample": true,
+    "source": "Placeholder values - replace with real figures from the sources linked below"
+  },
+  "ratingMeta": {
+    "sample": true,
+    "source": "Placeholder ratings - replace with real customer reviews"
+  }
+}

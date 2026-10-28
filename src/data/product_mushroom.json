@@ -1,0 +1,48 @@
+{
+  "heading": "Mushroom Products",
+  "sub": "Mushroom Products from Nabaguna",
+  "currency": "₹",
+  "items": [
+    {
+      "name": "NABAGUNA Dry Oyster Mushroom",
+      "image": "dry-oyster-mushroom",
+      "subtitle": "Organic Dry Oyster Mushroom",
+      "summary": "Organic Dry Oyster Mushroom",
+      "mrp": 300,
+      "unit": "",
+      "links": []
+    },
+    {
+      "name": "NABAGUNA Mushroom Mango Pickle",
+      "image": "mushroom-mango-pickle",
+      "subtitle": "Mushroom and Raw Mango Blend with Spices | Traditional Style Pickle for Rice, Roti and Meal Pairing | 200 gm | Pack of 2",
+      "summary": "Prepared using a combination of mushroom pieces and raw mango blended with traditional spices.",
+      "description": "Prepared using a combination of mushroom pieces and raw mango blended with traditional spices, creating a tangy and savory accompaniment suited for Indian meal combinations.",
+      "mrp": 300,
+      "oldPrice": 349,
+      "unit": "",
+      "links": []
+    },
+    {
+      "name": "NABAGUNA Mushroom Olive Pickle",
+      "image": "mushroom-olive-pickle",
+      "subtitle": "Mushroom and Olive Based Pickle with Traditional Spices | Ready to Serve Condiment for Meals and Snacks | 200 gm | Pack of 2",
+      "summary": "Prepared using mushroom pieces and olives blended with traditional spices.",
+      "description": "Prepared using mushroom pieces and olives blended with traditional spices, offering a distinct taste combination suited for diverse meal pairings. Designed as a ready-to-serve condiment that can be enjoyed alongside rice dishes, rotis, snacks, or simple home-style meals.",
+      "mrp": 150,
+      "unit": "",
+      "links": []
+    },
+    {
+      "name": "Mushroom Millets Whole Wheat Flour",
+      "image": "mushroom-millets-whole-wheat-flour",
+      "subtitle": "Secret of good health | Natural Wellness",
+      "summary": "Prebiotic atta of Sonalika, Sharbati and Khapli wheat and millets, enriched with oyster mushroom powder.",
+      "description": "NABAGUNA Prebiotic Atta is meticulously crafted by blending premium Sonalika, Sharbati and ancient Khapli whole wheat grains, and Millets of enriched with the goodness of organic Oyster Mushroom powder.\nThese three wheats distinctive fusion introduces essential prebiotic dietary fibers along with high protein, other nutrients of the grains.\nMillet is enriched of Bioactive carbohydrate (oligosaccharide and polysaccharide) protein and calcium and has more essential amino acids than most other cereals.\nOyster mushroom has protein and Prebiotic fiber which significantly enhances the nutritional profile of our Atta. It contains essential amino acids that our bodies are unable to produce on their own.\nThis dual action plays reducing the risk of infections and indigestion while nurturing the cultivation of beneficial gut microbes.\nIt is important to note the comprehensive health benefits of our Prebiotic Atta. However, individuals with known mushroom or wheat allergies are advised to avoid its consumption.",
+      "mrp": 899,
+      "oldPrice": 1299,
+      "unit": "",
+      "links": []
+    }
+  ]
+}

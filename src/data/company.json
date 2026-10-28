@@ -1,0 +1,36 @@
+{
+  "vision": {
+    "title": "Our Vision",
+    "body": "To become a trusted name in organic farming by bringing the pure goodness of the Himalayas to every table. We envision a future where families eat food that is clean, honest and full of natural nutrition, where no one has to compromise their health for convenience, where the farmers who grow it earn the respect and livelihood they deserve, and where the mountains that sustain us remain healthy and unspoiled for generations to come."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "list": [
+      "Cultivate natural and chemical-free produce",
+      "Empower local farmers and communities",
+      "Promote sustainable mountain agriculture",
+      "Deliver high-quality, safe and nutritious food",
+      "Protect the environment for future generations",
+      "Reduce everyday exposure to harmful chemicals and pesticide residues",
+      "Make pure organic food easy to order and delivered at your chosen time"
+    ]
+  },
+  "assurances": [
+    {
+      "icon": "FlaskConical",
+      "text": "Made with the finest ingredients for superior results"
+    },
+    {
+      "icon": "Leaf",
+      "text": "100% natural ingredients with no artificial additives"
+    },
+    {
+      "icon": "Globe2",
+      "text": "Sustainably sourced and packaged with care for the environment"
+    },
+    {
+      "icon": "ShieldCheck",
+      "text": "Tested and certified to meet the highest safety standards"
+    }
+  ]
+}

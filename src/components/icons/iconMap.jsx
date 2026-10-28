@@ -1,14 +1,14 @@
 import {
   Leaf, Eye, Target, Recycle, Award, HandHeart, Users, Globe2,
   Sprout, Flame, Sun, Carrot, Citrus, Wheat, Coffee, Flower2,
-  Droplet, Package, Hand, Settings2, Truck,
+  Droplet, Package, Hand, Settings2, Truck, FlaskConical, ShieldCheck,
 } from 'lucide-react';
 import { MushroomIcon } from './CustomIcons';
 
 export const iconMap = {
   Leaf, Eye, Target, Recycle, Award, HandHeart, Users, Globe2,
   Sprout, Flame, Sun, Carrot, Citrus, Wheat, Coffee, Flower2,
-  Droplet, Package, Hand, Settings2, Truck,
+  Droplet, Package, Hand, Settings2, Truck, FlaskConical, ShieldCheck,
   Mushroom: MushroomIcon,
 };
 

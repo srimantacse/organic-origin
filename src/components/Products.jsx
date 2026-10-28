@@ -1,13 +1,29 @@
 import { useEffect, useState } from 'react';
 import kalimpong from '../data/product_kalimpong.json';
 import manipur from '../data/product_manipur.json';
+import mushroom from '../data/product_mushroom.json';
+import company from '../data/company.json';
+import { Icon } from './icons/iconMap';
 import './Products.css';
 
 const catalog = kalimpong;
-const ITEMS = [
-  ...kalimpong.items.map((p) => ({ ...p, catalog: kalimpong })),
-  ...manipur.items.map((p) => ({ ...p, catalog: manipur })),
+const TABS = [
+  {
+    id: 'produce',
+    label: 'Mountain Produce',
+    items: [
+      ...kalimpong.items.map((p) => ({ ...p, catalog: kalimpong })),
+      ...manipur.items.map((p) => ({ ...p, catalog: manipur })),
+    ],
+  },
+  { id: 'mushroom', label: 'Mushroom Products', items: mushroom.items.map((p) => ({ ...p, catalog: mushroom })) },
 ];
+const ITEMS = TABS.flatMap((t) => t.items);
+const slugOf = (name) => name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+const fromHash = () => {
+  const m = window.location.hash.match(/^#product=(.+)$/);
+  return (m && ITEMS.find((p) => slugOf(p.name) === m[1])) || null;
+};
 
 const images = import.meta.glob('../../assets_small/*.webp', { eager: true, import: 'default' });
 const imageFor = (name) => images[`../../assets_small/${name}.webp`];
@@ -60,6 +76,18 @@ const Rating = ({ catalog, rating, count }) => (
     </span>{' '}
     {rating.score.toFixed(1)} <small>({count} reviews{catalog.ratingMeta.sample ? ', sample' : ''})</small>
   </span>
+);
+
+const Price = ({ catalog, p }) => (
+  <p className="product-price">
+    {catalog.currency}{p.mrp}.00
+    {p.oldPrice && (
+      <>
+        <s>{catalog.currency}{p.oldPrice}.00</s>
+        <strong>({Math.round((1 - p.mrp / p.oldPrice) * 100)}% OFF)</strong>
+      </>
+    )}
+  </p>
 );
 
 const Mrp = ({ catalog, p }) =>
@@ -163,7 +191,18 @@ function ThumbsUp({ liked, count, onToggle }) {
 }
 
 export default function Products() {
-  const [selected, setSelected] = useState(null);
+  const [tab, setTab] = useState('produce');
+  const [selected, setSelectedState] = useState(fromHash);
+  const setSelected = (p) => {
+    setSelectedState(p);
+    if (p) window.history.pushState(null, '', `#product=${slugOf(p.name)}`);
+    else if (window.location.hash.startsWith('#product=')) window.history.pushState(null, '', '#products');
+  };
+  useEffect(() => {
+    const onPop = () => setSelectedState(fromHash());
+    window.addEventListener('popstate', onPop);
+    return () => window.removeEventListener('popstate', onPop);
+  }, []);
   const [likes, setLikes] = useState(loadLikes);
 
   const toggleLike = (name) => {
@@ -195,8 +234,23 @@ export default function Products() {
           <h2>{catalog.sub}</h2>
         </div>
 
+        <div className="products__tabs" role="tablist">
+          {TABS.map((t) => (
+            <button
+              type="button"
+              role="tab"
+              aria-selected={tab === t.id}
+              key={t.id}
+              className={`products__tab${tab === t.id ? ' products__tab--on' : ''}`}
+              onClick={() => setTab(t.id)}
+            >
+              {t.label}
+            </button>
+          ))}
+        </div>
+
         <div className="products__grid">
-          {ITEMS.map((p, i) => (
+          {TABS.find((t) => t.id === tab).items.map((p, i) => (
             <button
               type="button"
               className="product-card"
@@ -207,7 +261,7 @@ export default function Products() {
             >
               <Thumb className="product-card__img" name={p.image} alt={p.name} />
               <span className="product-card__name">{p.name}</span>
-              <em className="product-card__sci">{p.scientificName}</em>
+              {p.scientificName && <em className="product-card__sci">{p.scientificName}</em>}
               <Mrp catalog={p.catalog} p={p} />
             </button>
           ))}
@@ -233,11 +287,11 @@ export default function Products() {
             </button>
             <div className="product-modal__media">
               <Thumb className="product-modal__img" name={selected.image} alt={selected.name} />
-              <PriceChart catalog={selected.catalog} history={selected.priceHistory} unit={selected.unit} ourPrice={selected.mrp} sources={selected.priceSources} />
+              {selected.priceHistory && <PriceChart catalog={selected.catalog} history={selected.priceHistory} unit={selected.unit} ourPrice={selected.mrp} sources={selected.priceSources} />}
             </div>
             <div className="product-modal__body">
               <h3>{selected.name}</h3>
-              <em className="product-card__sci">{selected.scientificName}</em>
+              {selected.scientificName && <em className="product-card__sci">{selected.scientificName}</em>}
               {selected.rating && (
                 <Rating catalog={selected.catalog} rating={selected.rating} count={selected.rating.count + (likes[selected.name] ? 1 : 0)} />
               )}
@@ -246,7 +300,21 @@ export default function Products() {
                 count={(selected.rating?.count ?? 0) + (likes[selected.name] ? 1 : 0)}
                 onToggle={() => toggleLike(selected.name)}
               />
-              <p>{selected.summary}</p>
+              {selected.subtitle && <p className="product-subtitle">{selected.subtitle}</p>}
+              {selected.oldPrice && <Price catalog={selected.catalog} p={selected} />}
+              {selected.description
+                ? selected.description.split('\n').map((t) => <p key={t}>{t}</p>)
+                : <p>{selected.summary}</p>}
+              {selected.catalog === mushroom && (
+                <div className="product-assure">
+                  {company.assurances.map((a) => (
+                    <div key={a.text}>
+                      <span><Icon name={a.icon} size={22} /></span>
+                      <p>{a.text}</p>
+                    </div>
+                  ))}
+                </div>
+              )}
               <dl className="product-card__details">
                 {DETAILS.filter(([, key]) => selected[key]).map(([label, key]) => (
                   <div key={key}>
@@ -255,7 +323,7 @@ export default function Products() {
                   </div>
                 ))}
               </dl>
-              <p className="product-modal__links">
+              {selected.links?.length > 0 && <p className="product-modal__links">
                 Learn more:{' '}
                 {selected.links.map((l, i) => (
                   <span key={l.url}>
@@ -265,7 +333,7 @@ export default function Products() {
                     </a>
                   </span>
                 ))}
-              </p>
+              </p>}
               {selected.giTagged && (
                 <span className="product-gi">GI tagged{selected.giNumber ? ` · GI No. ${selected.giNumber}` : ''}</span>
               )}
@@ -286,7 +354,7 @@ export default function Products() {
                   </tbody>
                 </table>
               )}
-              <Mrp catalog={selected.catalog} p={selected} />
+              {!selected.oldPrice && <Mrp catalog={selected.catalog} p={selected} />}
               {selected.catalog.publisher && (
                 <small className="price-chart__note">Source: {selected.catalog.publisher.name}</small>
               )}

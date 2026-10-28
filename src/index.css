@@ -1,28 +1,30 @@
 :root {
-  --green-900: #0f3d23;
-  --green-800: #134a2b;
-  --green-700: #1b6b3a;
-  --green-600: #227a41;
-  --green-500: #2e9450;
-  --green-100: #e4f1e6;
-  --gold-500: #d7a233;
-  --gold-400: #e8bc5c;
-  --cream-100: #fbf9f1;
-  --cream-200: #f3f0e3;
-  --ink-900: #16261c;
-  --ink-600: #3f5047;
-  --ink-400: #6b7a71;
+  /* Palette sampled from nabaguna.com (warm cream, earthy brown, gold).
+     Token names keep the old "green" prefix so components need no changes. */
+  --green-900: #2f2c29;
+  --green-800: #4a403a;
+  --green-700: #86694a;
+  --green-600: #9a7e5e;
+  --green-500: #b39a78;
+  --green-100: #efe7db;
+  --gold-500: #dfbd6c;
+  --gold-400: #e8cb8a;
+  --cream-100: #f3eee8;
+  --cream-200: #faf8f4;
+  --ink-900: #2f2c29;
+  --ink-600: #5a5250;
+  --ink-400: #8a817c;
   --white: #ffffff;
 
-  --font-display: 'Poppins', system-ui, sans-serif;
-  --font-body: 'Inter', system-ui, sans-serif;
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Poppins', system-ui, sans-serif;
   --font-script: 'Caveat', cursive;
 
   --radius-sm: 10px;
   --radius-md: 16px;
   --radius-lg: 28px;
-  --shadow-soft: 0 10px 30px -12px rgba(15, 61, 35, 0.25);
-  --shadow-card: 0 4px 16px -6px rgba(15, 61, 35, 0.18);
+  --shadow-soft: 0 10px 30px -12px rgba(47, 44, 41, 0.25);
+  --shadow-card: 0 4px 16px -6px rgba(47, 44, 41, 0.18);
 
   --container: 1180px;
 }
@@ -89,8 +91,8 @@ button {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  font-family: var(--font-display);
-  font-weight: 600;
+  font-family: var(--font-body);
+  font-weight: 500;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   font-size: 0.78rem;
@@ -125,8 +127,8 @@ button {
   gap: 8px;
   padding: 14px 28px;
   border-radius: 999px;
-  font-family: var(--font-display);
-  font-weight: 600;
+  font-family: var(--font-body);
+  font-weight: 500;
   font-size: 0.95rem;
   border: 2px solid transparent;
   transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;

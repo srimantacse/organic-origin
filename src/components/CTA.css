@@ -17,7 +17,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(10, 30, 20, 0.6), rgba(10, 30, 20, 0.88));
+  background: linear-gradient(180deg, rgba(35, 30, 26, 0.6), rgba(35, 30, 26, 0.88));
 }
 
 .cta__inner {

@@ -1,3 +1,5 @@
+import company from './company.json';
+
 export const brand = {
   name: 'Organic Origin',
   shortName: 'O2',
@@ -29,22 +31,8 @@ export const about = {
       title: 'About Us',
       body: 'Organic Origin – O2 is an organic farming company rooted in the Himalayan foothills of Kalimpong and Manipur, with produce grown by local farmers across Kalimpong, Samsing, Jorethang and Manipur. We grow food the way nature intended: chemical-free, nutritious and full of mountain freshness. Every harvest supports the farmers who tend the land and helps protect the fragile Himalayan ecosystem.',
     },
-    {
-      icon: 'Eye',
-      title: 'Our Vision',
-      body: 'To become a trusted name in organic farming by bringing the pure goodness of the Himalayas to every table. We envision a future where families eat food that is clean, honest and full of natural nutrition, where the farmers who grow it earn the respect and livelihood they deserve, and where the mountains that sustain us remain healthy and unspoiled for generations to come.',
-    },
-    {
-      icon: 'Target',
-      title: 'Our Mission',
-      list: [
-        'Cultivate natural and chemical-free produce',
-        'Empower local farmers and communities',
-        'Promote sustainable mountain agriculture',
-        'Deliver high-quality, safe and nutritious food',
-        'Protect the environment for future generations',
-      ],
-    },
+    { icon: 'Eye', ...company.vision },
+    { icon: 'Target', ...company.mission },
   ],
   quote: 'Good Food Grows a Better Tomorrow',
 };
